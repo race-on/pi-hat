@@ -15,59 +15,59 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	800  3300 800  3400
+	550  3600 550  3700
 $Comp
 L power:GND #PWR?
 U 1 1 5D13978C
-P 800 3400
-F 0 "#PWR?" H 800 3150 50  0001 C CNN
-F 1 "GND" H 805 3227 50  0000 C CNN
-F 2 "" H 800 3400 50  0001 C CNN
-F 3 "" H 800 3400 50  0001 C CNN
-	1    800  3400
+P 550 3700
+F 0 "#PWR?" H 550 3450 50  0001 C CNN
+F 1 "GND" H 555 3527 50  0000 C CNN
+F 2 "" H 550 3700 50  0001 C CNN
+F 3 "" H 550 3700 50  0001 C CNN
+	1    550  3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 3300 800  3300
-Connection ~ 800  3300
+	800  3600 550  3600
+Connection ~ 550  3600
 Wire Wire Line
-	800  2900 800  3300
+	550  3200 550  3600
 $Comp
 L Device:C C?
 U 1 1 5D125703
-P 1200 3300
-F 0 "C?" V 1452 3300 50  0001 C CNN
-F 1 "1nF" V 1360 3300 50  0000 C CNN
-F 2 "" H 1238 3150 50  0001 C CNN
-F 3 "~" H 1200 3300 50  0001 C CNN
-	1    1200 3300
+P 950 3600
+F 0 "C?" V 1202 3600 50  0001 C CNN
+F 1 "1nF" V 1110 3600 50  0000 C CNN
+F 2 "" H 988 3450 50  0001 C CNN
+F 3 "~" H 950 3600 50  0001 C CNN
+	1    950  3600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1750 2750 1750 2950
+	1500 3050 1500 3250
 $Comp
 L Device:R R?
 U 1 1 5D11DAA8
-P 1750 2600
-F 0 "R?" H 1820 2646 50  0001 L CNN
-F 1 "R" H 1820 2600 50  0000 L CNN
-F 2 "" V 1680 2600 50  0001 C CNN
-F 3 "~" H 1750 2600 50  0001 C CNN
-	1    1750 2600
+P 1500 2900
+F 0 "R?" H 1570 2946 50  0001 L CNN
+F 1 "R" H 1570 2900 50  0000 L CNN
+F 2 "" V 1430 2900 50  0001 C CNN
+F 3 "~" H 1500 2900 50  0001 C CNN
+	1    1500 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 1750 2950
+Connection ~ 1500 3250
 Wire Wire Line
-	1550 2950 1750 2950
+	1300 3250 1500 3250
 $Comp
 L Sensor_Voltage:BD48K60 VoltageRegulator
 U 1 1 5D1051D4
-P 1150 2800
-F 0 "VoltageRegulator" H 1125 2585 50  0000 C CNN
-F 1 "BD48K60" H 1125 2676 50  0000 C CNN
-F 2 "" H 1150 2700 50  0001 C CNN
-F 3 "" H 1150 2700 50  0001 C CNN
-	1    1150 2800
+P 900 3100
+F 0 "VoltageRegulator" H 875 2885 50  0000 C CNN
+F 1 "BD48K60" H 875 2976 50  0000 C CNN
+F 2 "" H 900 3000 50  0001 C CNN
+F 3 "" H 900 3000 50  0001 C CNN
+	1    900  3100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -272,13 +272,13 @@ Wire Wire Line
 Text GLabel 1850 1250 2    50   Input ~ 0
 Vbat
 Wire Wire Line
-	1550 2850 1550 2700
-Text GLabel 1550 2700 1    50   Input ~ 0
+	1300 3150 1300 3000
+Text GLabel 1300 3000 1    50   Input ~ 0
 Vbat
 Wire Wire Line
-	1750 2950 1750 3300
+	1500 3250 1500 3600
 Wire Wire Line
-	1750 3300 1350 3300
+	1500 3600 1100 3600
 Text GLabel 8050 4700 1    50   Input ~ 0
 +5V@4A
 Wire Wire Line
@@ -907,17 +907,17 @@ Wire Wire Line
 Connection ~ 5200 6750
 Wire Wire Line
 	5200 6750 5200 7000
-Text GLabel 1700 2350 0    50   Input ~ 0
+Text GLabel 1450 2650 0    50   Input ~ 0
 +5V@4A
 $Comp
 L Device:Buzzer BZ?
 U 1 1 5D1433A0
-P 2400 2400
-F 0 "BZ?" V 2358 2552 50  0000 L CNN
-F 1 "Buzzer" V 2449 2552 50  0000 L CNN
-F 2 "" V 2375 2500 50  0001 C CNN
-F 3 "~" V 2375 2500 50  0001 C CNN
-	1    2400 2400
+P 2150 2400
+F 0 "BZ?" V 2108 2552 50  0000 L CNN
+F 1 "Buzzer" V 2199 2552 50  0000 L CNN
+F 2 "" V 2125 2500 50  0001 C CNN
+F 3 "~" V 2125 2500 50  0001 C CNN
+	1    2150 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1025,58 +1025,212 @@ F 3 "~" H 5900 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1700 2350 1750 2350
+	1450 2650 1500 2650
 Wire Wire Line
-	1750 2350 1750 2450
+	1500 2650 1500 2750
 $Comp
 L Device:Q_PMOS_DGS Q?
 U 1 1 5D41BC35
-P 2200 2950
-F 0 "Q?" H 2406 2996 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 2406 2905 50  0000 L CNN
-F 2 "" H 2400 3050 50  0001 C CNN
-F 3 "~" H 2200 2950 50  0001 C CNN
-	1    2200 2950
+P 1950 3250
+F 0 "Q?" H 2156 3296 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 2156 3205 50  0000 L CNN
+F 2 "" H 2150 3350 50  0001 C CNN
+F 3 "~" H 1950 3250 50  0001 C CNN
+	1    1950 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5D4325A2
-P 2000 3150
-F 0 "R?" V 1793 3150 50  0001 C CNN
-F 1 "10k" V 1884 3150 50  0000 C CNN
-F 2 "" V 1930 3150 50  0001 C CNN
-F 3 "~" H 2000 3150 50  0001 C CNN
-	1    2000 3150
+P 1750 3450
+F 0 "R?" V 1543 3450 50  0001 C CNN
+F 1 "10k" V 1634 3450 50  0000 C CNN
+F 2 "" V 1680 3450 50  0001 C CNN
+F 3 "~" H 1750 3450 50  0001 C CNN
+	1    1750 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 2950 2000 3000
+	1750 3250 1750 3300
 Wire Wire Line
-	2000 3300 2300 3300
+	1750 3600 2050 3600
 Wire Wire Line
-	2300 3300 2300 3150
+	2050 3600 2050 3450
 $Comp
 L power:GND #PWR?
 U 1 1 5D46516E
-P 2500 2500
-F 0 "#PWR?" H 2500 2250 50  0001 C CNN
-F 1 "GND" H 2505 2327 50  0000 C CNN
-F 2 "" H 2500 2500 50  0001 C CNN
-F 3 "" H 2500 2500 50  0001 C CNN
-	1    2500 2500
+P 2250 2500
+F 0 "#PWR?" H 2250 2250 50  0001 C CNN
+F 1 "GND" H 2255 2327 50  0000 C CNN
+F 2 "" H 2250 2500 50  0001 C CNN
+F 3 "" H 2250 2500 50  0001 C CNN
+	1    2250 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 3750 0    50   Input ~ 0
++5V@4A
+Wire Wire Line
+	1950 3750 2050 3750
+Wire Wire Line
+	2050 3750 2050 3600
+Connection ~ 2050 3600
+Wire Wire Line
+	1500 3250 1750 3250
+Connection ~ 1750 3250
+$Comp
+L Device:Jumper JP?
+U 1 1 5D49A646
+P 2050 2800
+F 0 "JP?" V 2096 2712 50  0000 R CNN
+F 1 "Jumper" V 2005 2712 50  0000 R CNN
+F 2 "" H 2050 2800 50  0001 C CNN
+F 3 "~" H 2050 2800 50  0001 C CNN
+	1    2050 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 5550 8650 5650
+Text GLabel 8650 5650 3    50   Input ~ 0
+IR_Transmitter
+Text GLabel 1100 7150 0    50   Input ~ 0
+IR_Transmitter
+$Comp
+L Device:R R?
+U 1 1 5D4D4634
+P 1300 7150
+F 0 "R?" H 1370 7196 50  0001 L CNN
+F 1 "R" V 1415 7150 50  0000 C CNN
+F 2 "" V 1230 7150 50  0001 C CNN
+F 3 "~" H 1300 7150 50  0001 C CNN
+	1    1300 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 7150 1150 7150
+$Comp
+L Transistor_BJT:2N2219 Q?
+U 1 1 5D4DF047
+P 1650 7150
+F 0 "Q?" H 1840 7196 50  0001 L CNN
+F 1 "BJT" H 1840 7105 50  0001 L CNN
+F 2 "" H 1850 7075 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1650 7150 50  0001 L CNN
+	1    1650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4DFD4B
+P 1750 7450
+F 0 "#PWR?" H 1750 7200 50  0001 C CNN
+F 1 "GND" H 1755 7277 50  0000 C CNN
+F 2 "" H 1750 7450 50  0001 C CNN
+F 3 "" H 1750 7450 50  0001 C CNN
+	1    1750 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 2500 2300 2750
-Text GLabel 2200 3450 0    50   Input ~ 0
+	1750 7350 1750 7450
+$Comp
+L Device:LED D?
+U 1 1 5D4E5B7A
+P 1750 6350
+F 0 "D?" V 1789 6233 50  0000 R CNN
+F 1 "LED" V 1698 6233 50  0000 R CNN
+F 2 "" H 1750 6350 50  0001 C CNN
+F 3 "~" H 1750 6350 50  0001 C CNN
+	1    1750 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 6850 1750 6950
+Text GLabel 1700 6100 0    50   Input ~ 0
 +5V@4A
 Wire Wire Line
-	2200 3450 2300 3450
+	1700 6100 1750 6100
 Wire Wire Line
-	2300 3450 2300 3300
-Connection ~ 2300 3300
+	1750 6100 1750 6200
+$Comp
+L Device:R R?
+U 1 1 5D4FCBFC
+P 1750 6700
+F 0 "R?" H 1820 6746 50  0001 L CNN
+F 1 "R" V 1865 6700 50  0000 C CNN
+F 2 "" V 1680 6700 50  0001 C CNN
+F 3 "~" H 1750 6700 50  0001 C CNN
+	1    1750 6700
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	1750 2950 2000 2950
-Connection ~ 2000 2950
+	1750 6500 1750 6550
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D5211C9
+P 3350 6600
+F 0 "J?" H 3430 6592 50  0001 L CNN
+F 1 "Accelerometer_small" H 3430 6546 50  0000 L CNN
+F 2 "" H 3350 6600 50  0001 C CNN
+F 3 "~" H 3350 6600 50  0001 C CNN
+	1    3350 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6500 3050 6500
+Wire Wire Line
+	3150 6600 3050 6600
+Wire Wire Line
+	3150 6700 3050 6700
+Wire Wire Line
+	3150 6800 3050 6800
+Text GLabel 3050 6500 0    50   Input ~ 0
+accelerometer_1
+Text GLabel 3050 6600 0    50   Input ~ 0
+accelerometer_2
+Text GLabel 3050 6700 0    50   Input ~ 0
+accelerometer_3
+Text GLabel 3050 6800 0    50   Input ~ 0
+accelerometer_4
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D5584A0
+P 3350 7100
+F 0 "J?" H 3430 7092 50  0001 L CNN
+F 1 "Accelerometer_standard" H 3430 7046 50  0000 L CNN
+F 2 "" H 3350 7100 50  0001 C CNN
+F 3 "~" H 3350 7100 50  0001 C CNN
+	1    3350 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 7000 3050 7000
+Wire Wire Line
+	3150 7100 3050 7100
+Wire Wire Line
+	3150 7200 3050 7200
+Wire Wire Line
+	3150 7300 3050 7300
+Text GLabel 3050 7000 0    50   Input ~ 0
+accelerometer_1
+Text GLabel 3050 7100 0    50   Input ~ 0
+accelerometer_2
+Text GLabel 3050 7200 0    50   Input ~ 0
+accelerometer_3
+Text GLabel 3050 7300 0    50   Input ~ 0
+accelerometer_4
+Text GLabel 8150 5650 3    50   Input ~ 0
+accelerometer_1
+Text GLabel 8250 5650 3    50   Input ~ 0
+accelerometer_2
+Text GLabel 8450 5650 3    50   Input ~ 0
+accelerometer_3
+Text GLabel 8550 5650 3    50   Input ~ 0
+accelerometer_4
+Wire Wire Line
+	8550 5550 8550 5650
+Wire Wire Line
+	8450 5550 8450 5650
+Wire Wire Line
+	8250 5550 8250 5650
+Wire Wire Line
+	8150 5550 8150 5650
 $EndSCHEMATC
