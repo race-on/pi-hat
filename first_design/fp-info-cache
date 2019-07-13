@@ -1,4 +1,4 @@
-15963315379289779
+15969567721085779
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49112,6 +49112,20 @@ Capacitor, Polarized, Radial (Electrolytic); 7.60 mm C X 12.20 mm Dia X 10.20 mm
 2
 2
 library_express_pro
+Connector_pads
+Capacitor, Polarized, Dual Flat No-Lead (DFN 2 Pin); 2 pin, 15.25 mm L X 7.40 mm W X 27.00 mm H body
+
+0
+2
+2
+library_express_pro
+LED_YSL-R531R3D-D2
+Radial (LED); 2.54 mm C X 3.00 mm Dia X 13.40 mm H body
+
+0
+2
+2
+library_express_pro
 motor_connector
 
 
@@ -49126,8 +49140,22 @@ RaspberryPi_pins
 40
 40
 library_express_pro
+RLC_EIA_3216
+Capacitor, Chip; 3.20 mm L X 1.60 mm W X 1.35 mm H body
+
+0
+2
+2
+library_express_pro
 R_1.2mm
 Resistor, Axial; 9.00 mm C X 1.275 mm W 6.00 mm L X 2.00 mm Dia body
+
+0
+2
+2
+library_express_pro
+R_1.2mm_8mmPitch
+Resistor, Axial; 8.00 mm C X 1.275 mm W 5.20 mm L X 2.00 mm Dia body
 
 0
 2
@@ -49180,7 +49208,7 @@ DPAK, 2.286 mm pitch; 3 pin, 6.10 mm L X 6.575 mm W X 2.39 mm H body
 
 0
 13
-4
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

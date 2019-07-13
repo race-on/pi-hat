@@ -57,7 +57,7 @@ U 1 1 5D0E23A8
 P 8750 1050
 F 0 "MotorConnector1" H 8668 725 50  0000 C CNN
 F 1 "Conn_01x02" H 8668 816 50  0000 C CNN
-F 2 "library_express_pro:motor_connector" H 8750 1050 50  0001 C CNN
+F 2 "library_express_pro:Connector_pads" H 8750 1050 50  0001 C CNN
 F 3 "~" H 8750 1050 50  0001 C CNN
 	1    8750 1050
 	-1   0    0    1   
@@ -131,7 +131,7 @@ U 1 1 5D16DE92
 P 650 1150
 F 0 "Rmax1" H 720 1196 50  0000 L CNN
 F 1 "280" H 720 1105 50  0000 L CNN
-F 2 "library_express_pro:R_1.2mm" V 580 1150 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 580 1150 50  0001 C CNN
 F 3 "~" H 650 1150 50  0001 C CNN
 	1    650  1150
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 1 1 5D0B3C18
 P 1100 650
 F 0 "Power1" H 1180 642 50  0000 L CNN
 F 1 "Conn_01x02" H 1180 551 50  0000 L CNN
-F 2 "" H 1100 650 50  0001 C CNN
+F 2 "library_express_pro:Connector_pads" H 1100 650 50  0001 C CNN
 F 3 "~" H 1100 650 50  0001 C CNN
 	1    1100 650 
 	1    0    0    -1  
@@ -356,7 +356,7 @@ U 1 1 5D63B556
 P 4400 1400
 F 0 "R3" V 4607 1400 50  0000 C CNN
 F 1 "100K" V 4516 1400 50  0000 C CNN
-F 2 "library_express_pro:R_1.2mm" V 4330 1400 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 4330 1400 50  0001 C CNN
 F 3 "~" H 4400 1400 50  0001 C CNN
 	1    4400 1400
 	-1   0    0    1   
@@ -413,7 +413,7 @@ U 1 1 5D6E0CEE
 P 6100 2150
 F 0 "R2_buck1" V 6307 2150 50  0001 C CNN
 F 1 "22.1K" V 6216 2150 50  0000 C CNN
-F 2 "library_express_pro:R_1.2mm" V 6030 2150 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 6030 2150 50  0001 C CNN
 F 3 "~" H 6100 2150 50  0001 C CNN
 	1    6100 2150
 	-1   0    0    1   
@@ -446,7 +446,7 @@ U 1 1 5D715F4E
 P 6100 1800
 F 0 "R1_buck1" V 5893 1800 50  0001 C CNN
 F 1 "124k" V 5984 1800 50  0000 C CNN
-F 2 "library_express_pro:R_1.2mm" V 6030 1800 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 6030 1800 50  0001 C CNN
 F 3 "~" H 6100 1800 50  0001 C CNN
 	1    6100 1800
 	1    0    0    -1  
@@ -477,7 +477,7 @@ U 1 1 5D2A496C
 P 5900 5700
 F 0 "YSL-R531R3D-D2" H 5893 5445 50  0000 C CNN
 F 1 "LED" H 5893 5536 50  0000 C CNN
-F 2 "" H 5900 5700 50  0001 C CNN
+F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 5700 50  0001 C CNN
 F 3 "~" H 5900 5700 50  0001 C CNN
 	1    5900 5700
 	-1   0    0    1   
@@ -509,7 +509,7 @@ U 1 1 5D5211C9
 P 9800 4850
 F 0 "J2" H 9880 4842 50  0001 L CNN
 F 1 "Accelerometer_small" H 9880 4796 50  0000 L CNN
-F 2 "" H 9800 4850 50  0001 C CNN
+F 2 "library_express_pro:accelerometer_small" H 9800 4850 50  0001 C CNN
 F 3 "~" H 9800 4850 50  0001 C CNN
 	1    9800 4850
 	1    0    0    -1  
@@ -576,7 +576,7 @@ U 1 1 5D4325A2
 P 1900 3350
 F 0 "R5" V 1693 3350 50  0001 C CNN
 F 1 "10K" H 1784 3350 50  0000 C CNN
-F 2 "library_express_pro:R_1.2mm" V 1830 3350 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 1830 3350 50  0001 C CNN
 F 3 "~" H 1900 3350 50  0001 C CNN
 	1    1900 3350
 	1    0    0    -1  
@@ -631,7 +631,7 @@ U 1 1 5D45D034
 P 4500 5850
 F 0 "R8" H 4570 5896 50  0001 L CNN
 F 1 "220" H 4430 5850 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 4430 5850 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 4430 5850 50  0001 C CNN
 F 3 "~" H 4500 5850 50  0001 C CNN
 	1    4500 5850
 	-1   0    0    1   
@@ -678,7 +678,7 @@ U 1 1 5D4834B4
 P 4500 5050
 F 0 "R7" H 4570 5096 50  0001 L CNN
 F 1 "220" H 4430 5050 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 4430 5050 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 4430 5050 50  0001 C CNN
 F 3 "~" H 4500 5050 50  0001 C CNN
 	1    4500 5050
 	-1   0    0    1   
@@ -729,7 +729,7 @@ U 1 1 5D4AC80A
 P 4500 6600
 F 0 "R9" H 4570 6646 50  0001 L CNN
 F 1 "220" H 4430 6600 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 4430 6600 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 4430 6600 50  0001 C CNN
 F 3 "~" H 4500 6600 50  0001 C CNN
 	1    4500 6600
 	-1   0    0    1   
@@ -777,7 +777,7 @@ U 1 1 5D4C1ED2
 P 4500 7400
 F 0 "R10" H 4570 7446 50  0001 L CNN
 F 1 "220" H 4430 7400 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 4430 7400 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 4430 7400 50  0001 C CNN
 F 3 "~" H 4500 7400 50  0001 C CNN
 	1    4500 7400
 	-1   0    0    1   
@@ -823,7 +823,7 @@ U 1 1 5D570B64
 P 6300 5700
 F 0 "R11" H 6370 5746 50  0001 L CNN
 F 1 "82" H 6230 5700 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 6230 5700 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 6230 5700 50  0001 C CNN
 F 3 "~" H 6300 5700 50  0001 C CNN
 	1    6300 5700
 	0    1    1    0   
@@ -851,7 +851,7 @@ U 1 1 5D5894B2
 P 5900 6250
 F 0 "YSL-R531R3D-D1" H 5893 5995 50  0000 C CNN
 F 1 "LED" H 5893 6086 50  0000 C CNN
-F 2 "" H 5900 6250 50  0001 C CNN
+F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 6250 50  0001 C CNN
 F 3 "~" H 5900 6250 50  0001 C CNN
 	1    5900 6250
 	-1   0    0    1   
@@ -864,7 +864,7 @@ U 1 1 5D5894BA
 P 6300 6250
 F 0 "R12" H 6370 6296 50  0001 L CNN
 F 1 "82" H 6230 6250 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 6230 6250 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 6230 6250 50  0001 C CNN
 F 3 "~" H 6300 6250 50  0001 C CNN
 	1    6300 6250
 	0    1    1    0   
@@ -892,7 +892,7 @@ U 1 1 5D591864
 P 5900 6800
 F 0 "YSL-R531R3D-D3" H 5893 6545 50  0000 C CNN
 F 1 "LED" H 5893 6636 50  0000 C CNN
-F 2 "" H 5900 6800 50  0001 C CNN
+F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 6800 50  0001 C CNN
 F 3 "~" H 5900 6800 50  0001 C CNN
 	1    5900 6800
 	-1   0    0    1   
@@ -905,7 +905,7 @@ U 1 1 5D59186C
 P 6300 6800
 F 0 "R13" H 6370 6846 50  0001 L CNN
 F 1 "82" H 6230 6800 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 6230 6800 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 6230 6800 50  0001 C CNN
 F 3 "~" H 6300 6800 50  0001 C CNN
 	1    6300 6800
 	0    1    1    0   
@@ -933,7 +933,7 @@ U 1 1 5D59A2BC
 P 5900 7300
 F 0 "YSL-R531R3D-D4" H 5893 7045 50  0000 C CNN
 F 1 "LED" H 5893 7136 50  0000 C CNN
-F 2 "" H 5900 7300 50  0001 C CNN
+F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 7300 50  0001 C CNN
 F 3 "~" H 5900 7300 50  0001 C CNN
 	1    5900 7300
 	-1   0    0    1   
@@ -946,7 +946,7 @@ U 1 1 5D59A2C4
 P 6300 7300
 F 0 "R14" H 6370 7346 50  0001 L CNN
 F 1 "82" H 6230 7300 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 6230 7300 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 6230 7300 50  0001 C CNN
 F 3 "~" H 6300 7300 50  0001 C CNN
 	1    6300 7300
 	0    1    1    0   
@@ -1072,7 +1072,7 @@ U 1 1 5D763AFF
 P 2450 6650
 F 0 "R_IR1" H 2520 6696 50  0001 L CNN
 F 1 "220" H 2380 6650 50  0001 R CNN
-F 2 "library_express_pro:R_1.2mm" V 2380 6650 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 2380 6650 50  0001 C CNN
 F 3 "~" H 2450 6650 50  0001 C CNN
 	1    2450 6650
 	0    -1   -1   0   
@@ -1085,7 +1085,7 @@ U 1 1 5D78C6B1
 P 2150 6650
 F 0 "None1" H 2143 6395 50  0001 C CNN
 F 1 "IR_LED" H 2143 6486 50  0000 C CNN
-F 2 "" H 2150 6650 50  0001 C CNN
+F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 2150 6650 50  0001 C CNN
 F 3 "~" H 2150 6650 50  0001 C CNN
 	1    2150 6650
 	1    0    0    -1  
@@ -1128,7 +1128,7 @@ U 1 1 5D7B4980
 P 1400 7300
 F 0 "R4" V 1193 7300 50  0001 C CNN
 F 1 "10K" H 1284 7300 50  0000 C CNN
-F 2 "library_express_pro:R_1.2mm" V 1330 7300 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 1330 7300 50  0001 C CNN
 F 3 "~" H 1400 7300 50  0001 C CNN
 	1    1400 7300
 	1    0    0    -1  
@@ -1217,7 +1217,7 @@ U 1 1 5DC831BF
 P 1200 5400
 F 0 "LDO1" H 1225 5825 50  0000 C CNN
 F 1 "AZ2085" H 1225 5734 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 1200 5100 50  0001 C CNN
+F 2 "library_express_pro:TO252-2" H 1200 5100 50  0001 C CNN
 F 3 "" H 1200 5100 50  0001 C CNN
 	1    1200 5400
 	1    0    0    -1  
@@ -1228,7 +1228,7 @@ U 1 1 5DC83DCB
 P 1750 5400
 F 0 "R1" H 1820 5446 50  0000 L CNN
 F 1 "220" H 1680 5400 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 1680 5400 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 1680 5400 50  0001 C CNN
 F 3 "~" H 1750 5400 50  0001 C CNN
 	1    1750 5400
 	1    0    0    -1  
@@ -1248,7 +1248,7 @@ U 1 1 5DCD702D
 P 1750 5750
 F 0 "R2" H 1820 5796 50  0000 L CNN
 F 1 "220" H 1680 5750 50  0000 R CNN
-F 2 "library_express_pro:R_1.2mm" V 1680 5750 50  0001 C CNN
+F 2 "library_express_pro:R_1.2mm_8mmPitch" V 1680 5750 50  0001 C CNN
 F 3 "~" H 1750 5750 50  0001 C CNN
 	1    1750 5750
 	1    0    0    -1  
@@ -1300,7 +1300,7 @@ U 1 1 5DD35231
 P 9800 6050
 F 0 "J4" H 9880 6092 50  0001 L CNN
 F 1 "Servo_motor" H 9880 6046 50  0000 L CNN
-F 2 "" H 9800 6050 50  0001 C CNN
+F 2 "library_express_pro:servo_connector" H 9800 6050 50  0001 C CNN
 F 3 "~" H 9800 6050 50  0001 C CNN
 	1    9800 6050
 	1    0    0    -1  
