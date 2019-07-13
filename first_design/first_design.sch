@@ -210,7 +210,7 @@ U 1 1 5D0DCA59
 P 9650 3100
 F 0 "J1" V 9654 2013 50  0001 R CNN
 F 1 "Conn_02x20_Odd_Even" H 9745 2013 50  0000 R CNN
-F 2 "" H 9650 3100 50  0001 C CNN
+F 2 "library_express_pro:RaspberryPi_pins" H 9650 3100 50  0001 C CNN
 F 3 "~" H 9650 3100 50  0001 C CNN
 	1    9650 3100
 	1    0    0    -1  

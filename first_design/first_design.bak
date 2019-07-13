@@ -57,7 +57,7 @@ U 1 1 5D0E23A8
 P 8750 1050
 F 0 "MotorConnector1" H 8668 725 50  0000 C CNN
 F 1 "Conn_01x02" H 8668 816 50  0000 C CNN
-F 2 "" H 8750 1050 50  0001 C CNN
+F 2 "library_express_pro:motor_connector" H 8750 1050 50  0001 C CNN
 F 3 "~" H 8750 1050 50  0001 C CNN
 	1    8750 1050
 	-1   0    0    1   
@@ -526,7 +526,7 @@ U 1 1 5D5584A0
 P 9800 5350
 F 0 "J3" H 9880 5342 50  0001 L CNN
 F 1 "Accelerometer_standard" H 9880 5296 50  0000 L CNN
-F 2 "" H 9800 5350 50  0001 C CNN
+F 2 "library_express_pro:Accelerometer_standard" H 9800 5350 50  0001 C CNN
 F 3 "~" H 9800 5350 50  0001 C CNN
 	1    9800 5350
 	1    0    0    -1  
