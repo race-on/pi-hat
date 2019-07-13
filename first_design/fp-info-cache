@@ -1,4 +1,4 @@
-15955500492698779
+15963315379289779
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49091,6 +49091,20 @@ Yellow 5381 Series LED
 2
 2
 library_express_pro
+accelerometer_small
+
+
+0
+3
+3
+library_express_pro
+Accelerometer_standard
+
+
+0
+4
+4
+library_express_pro
 Buzzer_AI-1223-TWT-5V-5-R
 Capacitor, Polarized, Radial (Electrolytic); 7.60 mm C X 12.20 mm Dia X 10.20 mm H body
 
@@ -49098,12 +49112,33 @@ Capacitor, Polarized, Radial (Electrolytic); 7.60 mm C X 12.20 mm Dia X 10.20 mm
 2
 2
 library_express_pro
+motor_connector
+
+
+0
+2
+2
+library_express_pro
+RaspberryPi_pins
+
+
+0
+40
+40
+library_express_pro
 R_1.2mm
 Resistor, Axial; 9.00 mm C X 1.275 mm W 6.00 mm L X 2.00 mm Dia body
 
 0
 2
 2
+library_express_pro
+servo_connector
+
+
+0
+3
+3
 library_express_pro
 SO-8
 Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.75 mm H body

@@ -509,7 +509,7 @@ U 1 1 5D5211C9
 P 9800 4850
 F 0 "J2" H 9880 4842 50  0001 L CNN
 F 1 "Accelerometer_small" H 9880 4796 50  0000 L CNN
-F 2 "" H 9800 4850 50  0001 C CNN
+F 2 "library_express_pro:accelerometer_small" H 9800 4850 50  0001 C CNN
 F 3 "~" H 9800 4850 50  0001 C CNN
 	1    9800 4850
 	1    0    0    -1  
@@ -1300,7 +1300,7 @@ U 1 1 5DD35231
 P 9800 6050
 F 0 "J4" H 9880 6092 50  0001 L CNN
 F 1 "Servo_motor" H 9880 6046 50  0000 L CNN
-F 2 "" H 9800 6050 50  0001 C CNN
+F 2 "library_express_pro:servo_connector" H 9800 6050 50  0001 C CNN
 F 3 "~" H 9800 6050 50  0001 C CNN
 	1    9800 6050
 	1    0    0    -1  
