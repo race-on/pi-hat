@@ -1,4 +1,4 @@
-15969567798300779
+15972694751384779
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49105,6 +49105,13 @@ Accelerometer_standard
 4
 4
 library_express_pro
+button_6x6mm
+Header, Vertical, 6.00 mm pitch; 1.20 mm lead width, 4 pins, 2 rows, 2 pins per row, 9.65 mm L X 9.65 mm W X 10.00 mm H body
+
+0
+4
+4
+library_express_pro
 Buzzer_AI-1223-TWT-5V-5-R
 Capacitor, Polarized, Radial (Electrolytic); 7.60 mm C X 12.20 mm Dia X 10.20 mm H body
 
@@ -49135,6 +49142,13 @@ motor_connector
 library_express_pro
 RaspberryPi_pins
 
+
+0
+40
+40
+library_express_pro
+RasPi_header_pro
+Header, Vertical, 2.54 mm pitch; 0.80 mm lead width, 40 pins, 2 rows, 20 pins per row, 51.50 mm L X 6.25 mm W X 10.00 mm H body
 
 0
 40
