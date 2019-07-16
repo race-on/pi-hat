@@ -1,4 +1,4 @@
-15988327067493143
+15994580491513143
 Adafruit HaD Proto HAT rev A
 1X25_ROUND_70MIL
 
@@ -49190,6 +49190,13 @@ Capacitor, Polarized, Radial (Electrolytic); 7.60 mm C X 12.20 mm Dia X 10.20 mm
 2
 2
 library_express_pro
+Buzzer_AI1027TWT5V2R
+Capacitor, Polarized, Radial (Electrolytic); 5.00 mm C X 9.80 mm Dia X 5.00 mm H body
+
+0
+2
+2
+library_express_pro
 Connector_pads
 Capacitor, Polarized, Dual Flat No-Lead (DFN 2 Pin); 2 pin, 15.25 mm L X 7.40 mm W X 27.00 mm H body
 
@@ -49206,6 +49213,13 @@ Radial (LED); 2.54 mm C X 3.00 mm Dia X 13.40 mm H body
 library_express_pro
 motor_connector
 
+
+0
+2
+2
+library_express_pro
+PTS636
+Diode, Non-Polarized, Small Outline Diode (SOD); 6.10 mm L X 3.70 mm W X 2.70 mm H body
 
 0
 2
@@ -49267,6 +49281,13 @@ Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 
 13
 9
 library_express_pro
+SO-8L
+DPAK, 1.27 mm pitch; 4 pin, 4.37 mm L X 5.125 mm W X 1.14 mm H body
+
+0
+9
+5
+library_express_pro
 SO-16N
 Small Outline IC (SOIC), 1.27 mm pitch; 16 pin, 9.89 mm L X 3.90 mm W X 1.75 mm H body
 
@@ -49287,6 +49308,13 @@ Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.90 mm L X 1.60 mm W X 
 0
 3
 3
+library_express_pro
+standard_jumper
+Header, Vertical Shrouded, 2.54 mm pitch; 1.20 mm lead width, 2 pins, 1 row, 2 pins per row, 5.25 mm L X 2.75 mm W X 6.00 mm H body
+
+0
+2
+2
 library_express_pro
 TO252-2
 DPAK, 2.286 mm pitch; 3 pin, 6.10 mm L X 6.575 mm W X 2.39 mm H body
