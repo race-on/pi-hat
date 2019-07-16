@@ -1332,9 +1332,53 @@ U 1 1 5D1601C1
 P 1700 1000
 F 0 "Si4101DY1" H 1906 1046 50  0000 L CNN
 F 1 "PMOS" H 1906 1000 50  0000 L CNN
-F 2 "library_express_pro:SOT23" H 1900 1100 50  0001 C CNN
+F 2 "library_express_pro:SO-8" H 1900 1100 50  0001 C CNN
 F 3 "~" H 1700 1000 50  0001 C CNN
 	1    1700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D325F07
+P 6350 700
+F 0 "H1" H 6450 746 50  0000 L CNN
+F 1 "MountingHole" H 6450 655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6350 700 50  0001 C CNN
+F 3 "~" H 6350 700 50  0001 C CNN
+	1    6350 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D326A35
+P 7100 700
+F 0 "H3" H 7200 746 50  0000 L CNN
+F 1 "MountingHole" H 7200 655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 7100 700 50  0001 C CNN
+F 3 "~" H 7100 700 50  0001 C CNN
+	1    7100 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D33042E
+P 6350 900
+F 0 "H2" H 6450 946 50  0000 L CNN
+F 1 "MountingHole" H 6450 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6350 900 50  0001 C CNN
+F 3 "~" H 6350 900 50  0001 C CNN
+	1    6350 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D339C5C
+P 7100 900
+F 0 "H4" H 7200 946 50  0000 L CNN
+F 1 "MountingHole" H 7200 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 7100 900 50  0001 C CNN
+F 3 "~" H 7100 900 50  0001 C CNN
+	1    7100 900 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
