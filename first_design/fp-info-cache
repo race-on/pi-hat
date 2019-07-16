@@ -1,4 +1,75 @@
-15972694751384779
+15988327067493143
+Adafruit HaD Proto HAT rev A
+1X25_ROUND_70MIL
+
+
+0
+25
+25
+Adafruit HaD Proto HAT rev A
+0805-NO
+
+
+0
+2
+2
+Adafruit HaD Proto HAT rev A
+ADAFRUIT_5MM
+
+
+0
+0
+0
+Adafruit HaD Proto HAT rev A
+FIDUCIAL_1MM
+
+
+0
+1
+1
+Adafruit HaD Proto HAT rev A
+HAD_LOGO_200MIL
+
+
+0
+0
+0
+Adafruit HaD Proto HAT rev A
+PCBFEAT-REV-056
+<b>Revision Level Field</b> - 56 mil<p>
+Set version with global board attribute '>REV'
+
+0
+0
+0
+Adafruit HaD Proto HAT rev A
+PIHATLOGO
+
+
+0
+0
+0
+Adafruit HaD Proto HAT rev A
+PI_HAT_NOSLOTS
+
+
+0
+40
+40
+Adafruit HaD Proto HAT rev A
+SOIC8_150MIL
+<b>Small Outline IC - 150mil Wide</b>
+
+0
+8
+8
+Adafruit HaD Proto HAT rev A
+SOLDERJUMPER_CLOSEDWIRE
+
+
+0
+3
+3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
