@@ -97,7 +97,7 @@ L Device:CP C2
 U 1 1 5D13A4E4
 P 1200 1550
 F 0 "C2" H 1082 1504 50  0001 R CNN
-F 1 "170uF" H 1082 1550 50  0000 R CNN
+F 1 "10uF" H 1082 1550 50  0000 R CNN
 F 2 "library_express_pro:RLC_EIA_3216" H 1238 1400 50  0001 C CNN
 F 3 "~" H 1200 1550 50  0001 C CNN
 	1    1200 1550
@@ -350,17 +350,6 @@ F 3 "" H 5350 1100 50  0001 C CNN
 	1    4950 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R3
-U 1 1 5D63B556
-P 4400 1400
-F 0 "R3" V 4607 1400 50  0000 C CNN
-F 1 "100K" V 4516 1400 50  0000 C CNN
-F 2 "library_express_pro:RLC_EIA_3216" V 4330 1400 50  0001 C CNN
-F 3 "~" H 4400 1400 50  0001 C CNN
-	1    4400 1400
-	-1   0    0    1   
-$EndComp
 Text GLabel 4250 1150 0    50   Input ~ 0
 Vbat
 $Comp
@@ -384,17 +373,6 @@ F 2 "library_express_pro:RLC_EIA_3216" H 5700 1550 50  0001 C CNN
 F 3 "~" H 5700 1550 50  0001 C CNN
 	1    5700 1550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5D69FBE8
-P 6800 1700
-F 0 "C9" H 6685 1654 50  0000 R CNN
-F 1 "44uF" H 6685 1745 50  0000 R CNN
-F 2 "library_express_pro:RLC_EIA_3216" H 6838 1550 50  0001 C CNN
-F 3 "~" H 6800 1700 50  0001 C CNN
-	1    6800 1700
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0111
@@ -477,7 +455,7 @@ U 1 1 5D2A496C
 P 5900 5700
 F 0 "YSL-R531R3D-D2" H 5893 5445 50  0000 C CNN
 F 1 "LED" H 5893 5536 50  0000 C CNN
-F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 5700 50  0001 C CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 5900 5700 50  0001 C CNN
 F 3 "~" H 5900 5700 50  0001 C CNN
 	1    5900 5700
 	-1   0    0    1   
@@ -774,7 +752,7 @@ U 1 1 5D5894B2
 P 5900 6250
 F 0 "YSL-R531R3D-D1" H 5893 5995 50  0000 C CNN
 F 1 "LED" H 5893 6086 50  0000 C CNN
-F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 6250 50  0001 C CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 5900 6250 50  0001 C CNN
 F 3 "~" H 5900 6250 50  0001 C CNN
 	1    5900 6250
 	-1   0    0    1   
@@ -815,7 +793,7 @@ U 1 1 5D591864
 P 5900 6800
 F 0 "YSL-R531R3D-D3" H 5893 6545 50  0000 C CNN
 F 1 "LED" H 5893 6636 50  0000 C CNN
-F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 6800 50  0001 C CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 5900 6800 50  0001 C CNN
 F 3 "~" H 5900 6800 50  0001 C CNN
 	1    5900 6800
 	-1   0    0    1   
@@ -856,7 +834,7 @@ U 1 1 5D59A2BC
 P 5900 7300
 F 0 "YSL-R531R3D-D4" H 5893 7045 50  0000 C CNN
 F 1 "LED" H 5893 7136 50  0000 C CNN
-F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 5900 7300 50  0001 C CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 5900 7300 50  0001 C CNN
 F 3 "~" H 5900 7300 50  0001 C CNN
 	1    5900 7300
 	-1   0    0    1   
@@ -980,7 +958,7 @@ U 1 1 5D702DEB
 P 1900 2750
 F 0 "JP1" H 1900 3014 50  0000 C CNN
 F 1 "Jumper" H 1900 2923 50  0000 C CNN
-F 2 "" H 1900 2750 50  0001 C CNN
+F 2 "library_express_pro:standard_jumper" H 1900 2750 50  0001 C CNN
 F 3 "~" H 1900 2750 50  0001 C CNN
 	1    1900 2750
 	1    0    0    -1  
@@ -1065,16 +1043,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 1550 4400 1550
 Wire Wire Line
-	4400 1250 4400 1150
-Connection ~ 6800 1550
-Wire Wire Line
-	6800 1550 7000 1550
-Wire Wire Line
-	4600 1150 4400 1150
-Wire Wire Line
-	4250 1150 4400 1150
-Connection ~ 4400 1150
-Wire Wire Line
 	5350 1550 5450 1550
 Wire Wire Line
 	5350 1150 5450 1150
@@ -1092,24 +1060,6 @@ Wire Wire Line
 	5350 2350 5450 2350
 Wire Wire Line
 	6100 2300 6100 2650
-$Comp
-L Device:C C7
-U 1 1 5DB9C798
-P 6350 1800
-F 0 "C7" H 6235 1754 50  0000 R CNN
-F 1 "44uF" H 6235 1845 50  0000 R CNN
-F 2 "library_express_pro:RLC_EIA_3216" H 6388 1650 50  0001 C CNN
-F 3 "~" H 6350 1800 50  0001 C CNN
-	1    6350 1800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6350 1650 6100 1650
-Connection ~ 6100 1650
-Wire Wire Line
-	6350 1950 6100 1950
-Wire Wire Line
-	6100 1550 6800 1550
 Connection ~ 6100 1550
 Wire Wire Line
 	5850 1550 6100 1550
@@ -1220,31 +1170,31 @@ Text GLabel 2350 5200 2    50   Input ~ 0
 $Comp
 L Connector_Generic:Conn_01x03 J4
 U 1 1 5DD35231
-P 9800 6050
-F 0 "J4" H 9880 6092 50  0001 L CNN
-F 1 "Servo_motor" H 9880 6046 50  0000 L CNN
-F 2 "library_express_pro:servo_connector" H 9800 6050 50  0001 C CNN
-F 3 "~" H 9800 6050 50  0001 C CNN
-	1    9800 6050
+P 9800 6000
+F 0 "J4" H 9880 6042 50  0001 L CNN
+F 1 "Servo_motor" H 9880 5996 50  0000 L CNN
+F 2 "library_express_pro:servo_connector" H 9800 6000 50  0001 C CNN
+F 3 "~" H 9800 6000 50  0001 C CNN
+	1    9800 6000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9600 5950 0    50   Input ~ 0
+Text GLabel 9600 6000 0    50   Input ~ 0
 6V-5V
 $Comp
 L power:GND #PWR0126
 U 1 1 5DD3FB35
-P 9100 6050
-F 0 "#PWR0126" H 9100 5800 50  0001 C CNN
-F 1 "GND" V 9105 5922 50  0000 R CNN
-F 2 "" H 9100 6050 50  0001 C CNN
-F 3 "" H 9100 6050 50  0001 C CNN
-	1    9100 6050
+P 9100 5900
+F 0 "#PWR0126" H 9100 5650 50  0001 C CNN
+F 1 "GND" V 9105 5772 50  0000 R CNN
+F 2 "" H 9100 5900 50  0001 C CNN
+F 3 "" H 9100 5900 50  0001 C CNN
+	1    9100 5900
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 6150 0    50   Input ~ 0
+Text GLabel 9600 6100 0    50   Input ~ 0
 servo_PWM
 Wire Wire Line
-	9100 6050 9600 6050
+	9100 5900 9600 5900
 Text GLabel 10000 2900 2    50   Input ~ 0
 servo_PWM
 Wire Wire Line
@@ -1255,7 +1205,7 @@ U 1 1 5D1601C1
 P 1700 1000
 F 0 "SQJA37EP1" H 1906 1046 50  0000 L CNN
 F 1 "PMOS" H 1906 1000 50  0000 L CNN
-F 2 "" H 1900 1100 50  0001 C CNN
+F 2 "library_express_pro:SO-8L" H 1900 1100 50  0001 C CNN
 F 3 "~" H 1700 1000 50  0001 C CNN
 	1    1700 1000
 	1    0    0    -1  
@@ -1355,4 +1305,27 @@ F 3 "~" H 4000 7250 50  0001 C CNN
 	1    4000 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6100 1550 6800 1550
+Wire Wire Line
+	6800 1550 7000 1550
+Connection ~ 6800 1550
+$Comp
+L Device:C C9
+U 1 1 5D69FBE8
+P 6800 1700
+F 0 "C9" H 6685 1654 50  0000 R CNN
+F 1 "44uF" H 6685 1745 50  0000 R CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 6838 1550 50  0001 C CNN
+F 3 "~" H 6800 1700 50  0001 C CNN
+	1    6800 1700
+	-1   0    0    1   
+$EndComp
+Connection ~ 4400 1150
+Wire Wire Line
+	4600 1150 4400 1150
+Wire Wire Line
+	4250 1150 4400 1150
+Wire Wire Line
+	4400 1150 4400 1550
 $EndSCHEMATC
