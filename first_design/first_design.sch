@@ -189,7 +189,7 @@ U 1 1 5D0DCA59
 P 9650 3100
 F 0 "J1" V 9654 2013 50  0001 R CNN
 F 1 "Conn_02x20_Odd_Even" H 9745 2013 50  0000 R CNN
-F 2 "library_express_pro:RasPi_header_pro" H 9650 3100 50  0001 C CNN
+F 2 "library_express_pro:RasPi_Header_0.9" H 9650 3100 50  0001 C CNN
 F 3 "~" H 9650 3100 50  0001 C CNN
 	1    9650 3100
 	1    0    0    -1  
@@ -348,7 +348,7 @@ U 1 1 5D67E8D7
 P 5700 1550
 F 0 "L1" V 5519 1550 50  0000 C CNN
 F 1 "3.3uH" V 5610 1550 50  0000 C CNN
-F 2 "library_express_pro:RLC_EIA_3216" H 5700 1550 50  0001 C CNN
+F 2 "library_express_pro:Inductor_PA4340" H 5700 1550 50  0001 C CNN
 F 3 "~" H 5700 1550 50  0001 C CNN
 	1    5700 1550
 	0    -1   -1   0   
@@ -1295,7 +1295,7 @@ U 1 1 5D69FBE8
 P 6800 1700
 F 0 "C9" H 6685 1654 50  0000 R CNN
 F 1 "44uF" H 6685 1745 50  0000 R CNN
-F 2 "library_express_pro:RLC_EIA_3216" H 6838 1550 50  0001 C CNN
+F 2 "library_express_pro:Capacitor_E61" H 6838 1550 50  0001 C CNN
 F 3 "~" H 6800 1700 50  0001 C CNN
 	1    6800 1700
 	-1   0    0    1   
