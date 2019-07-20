@@ -1,4 +1,4 @@
-15999270895626143
+16000834581720143
 Adafruit HaD Proto HAT rev A
 1X25_ROUND_70MIL
 
@@ -49259,6 +49259,13 @@ Header, Vertical, 2.54 mm pitch; 0.80 mm lead width, 40 pins, 2 rows, 20 pins pe
 0
 40
 40
+library_express_pro
+Resistor_array_YC324
+Resistor, Chip Array, 2 Side Convex, 1.27 mm pitch; 8 pin, 5.08 mm L X 3.20 mm W X 0.70 mm H body
+
+0
+8
+8
 library_express_pro
 RLC_EIA_3216
 Capacitor, Chip; 3.20 mm L X 1.60 mm W X 1.35 mm H body
