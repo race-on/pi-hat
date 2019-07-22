@@ -160,12 +160,12 @@ Connection ~ 9200 950
 Wire Wire Line
 	8950 1050 9200 1050
 Connection ~ 9200 1050
-Text GLabel 8950 1250 0    50   Input ~ 0
-GPIO18
 Text GLabel 8950 1350 0    50   Input ~ 0
+GPIO18
+Text GLabel 10250 1150 2    50   Input ~ 0
 GPIO24
 Wire Wire Line
-	8950 1250 9250 1250
+	8950 1350 9250 1350
 Text GLabel 7550 3000 2    50   Input ~ 0
 GPIO18
 Text GLabel 7550 3300 2    50   Input ~ 0
@@ -571,7 +571,7 @@ F 3 "" H 1600 4750 50  0001 C CNN
 	1    1600 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 10150 4650 2    50   Input ~ 0
+Text GLabel 8950 1250 0    50   Input ~ 0
 GPIO23
 Wire Wire Line
 	1250 4900 1150 4900
@@ -1019,7 +1019,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 1450 9150 1600
 Wire Wire Line
-	9250 1350 8950 1350
+	9250 1250 8950 1250
 $Comp
 L first_design-rescue:RN-Connector IC4
 U 1 1 5D781DF0
@@ -1212,7 +1212,7 @@ Wire Wire Line
 Connection ~ 7500 2500
 Wire Wire Line
 	7000 2500 7000 2400
-Text GLabel 10250 1150 2    50   Input ~ 0
+Text GLabel 10150 4650 2    50   Input ~ 0
 GPIO25
 Text GLabel 7550 3200 2    50   Input ~ 0
 GPIO23

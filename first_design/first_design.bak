@@ -160,12 +160,12 @@ Connection ~ 9200 950
 Wire Wire Line
 	8950 1050 9200 1050
 Connection ~ 9200 1050
-Text GLabel 8950 1250 0    50   Input ~ 0
-GPIO18
 Text GLabel 8950 1350 0    50   Input ~ 0
+GPIO18
+Text GLabel 10150 4650 2    50   Input ~ 0
 GPIO24
 Wire Wire Line
-	8950 1250 9250 1250
+	8950 1350 9250 1350
 Text GLabel 7550 3000 2    50   Input ~ 0
 GPIO18
 Text GLabel 7550 3300 2    50   Input ~ 0
@@ -571,7 +571,7 @@ F 3 "" H 1600 4750 50  0001 C CNN
 	1    1600 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 10150 4650 2    50   Input ~ 0
+Text GLabel 8950 1250 0    50   Input ~ 0
 GPIO23
 Wire Wire Line
 	1250 4900 1150 4900
@@ -758,7 +758,7 @@ U 1 1 5D994E08
 P 10550 4450
 F 0 "JP3" H 10550 4655 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 10550 4564 50  0001 C CNN
-F 2 "" H 10550 4450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 10550 4450 50  0001 C CNN
 F 3 "~" H 10550 4450 50  0001 C CNN
 	1    10550 4450
 	1    0    0    -1  
@@ -1019,14 +1019,14 @@ Wire Wire Line
 Wire Wire Line
 	9150 1450 9150 1600
 Wire Wire Line
-	9250 1350 8950 1350
+	9250 1250 8950 1250
 $Comp
 L first_design-rescue:RN-Connector IC4
 U 1 1 5D781DF0
 P 4650 5700
 F 0 "IC4" H 4625 6115 50  0000 C CNN
 F 1 "RN" H 4625 6024 50  0000 C CNN
-F 2 "" H 4600 3950 50  0001 C CNN
+F 2 "library_express_pro:Resistor_array_YC324" H 4600 3950 50  0001 C CNN
 F 3 "" H 4600 3950 50  0001 C CNN
 	1    4650 5700
 	1    0    0    -1  
@@ -1297,7 +1297,7 @@ U 1 1 5DD75AAE
 P 2000 2800
 F 0 "JP2" H 2000 3005 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 2000 2914 50  0001 C CNN
-F 2 "" H 2000 2800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2000 2800 50  0001 C CNN
 F 3 "~" H 2000 2800 50  0001 C CNN
 	1    2000 2800
 	-1   0    0    1   
