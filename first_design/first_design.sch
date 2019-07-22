@@ -386,7 +386,7 @@ F 3 "~" H 2050 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1150 7100 0    50   Input ~ 0
-IR_Transmitter
+GPIO8
 Text GLabel 2850 6500 1    50   Input ~ 0
 +5V
 $Comp
@@ -601,54 +601,54 @@ F 3 "~" H 1600 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 5250 2250 5400
-Text GLabel 3600 6650 0    50   Input ~ 0
+Text GLabel 6500 7050 2    50   Input ~ 0
 GPIO20
-Text GLabel 3600 7250 0    50   Input ~ 0
+Text GLabel 6500 5900 2    50   Input ~ 0
 GPIO21
 Wire Wire Line
-	3700 7250 3600 7250
+	3700 5550 3600 5550
 $Comp
 L Device:LED YSL-R531R3D-D4
 U 1 1 5D59A2BC
-P 3850 7250
-F 0 "YSL-R531R3D-D4" H 3843 6995 50  0001 C CNN
-F 1 "LED4" H 3843 7086 50  0000 C CNN
-F 2 "library_express_pro:RLC_EIA_3216" H 3850 7250 50  0001 C CNN
-F 3 "~" H 3850 7250 50  0001 C CNN
-	1    3850 7250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 6650 3600 6650
-Wire Wire Line
-	3700 5550 3600 5550
-Text GLabel 3600 5550 0    50   Input ~ 0
-GPIO12
-$Comp
-L Device:LED YSL-R531R3D-D2
-U 1 1 5D2A496C
 P 3850 5550
-F 0 "YSL-R531R3D-D2" H 3843 5295 50  0001 C CNN
-F 1 "LED1" H 3843 5386 50  0000 C CNN
+F 0 "YSL-R531R3D-D4" H 3843 5295 50  0001 C CNN
+F 1 "LED4" H 3843 5386 50  0000 C CNN
 F 2 "library_express_pro:RLC_EIA_3216" H 3850 5550 50  0001 C CNN
 F 3 "~" H 3850 5550 50  0001 C CNN
 	1    3850 5550
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3700 6100 3600 6100
+Wire Wire Line
+	3700 7250 3600 7250
+Text GLabel 3600 6100 0    50   Input ~ 0
+GPIO12
+$Comp
+L Device:LED YSL-R531R3D-D2
+U 1 1 5D2A496C
+P 3850 7250
+F 0 "YSL-R531R3D-D2" H 3843 6995 50  0001 C CNN
+F 1 "LED1" H 3843 7086 50  0000 C CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 3850 7250 50  0001 C CNN
+F 3 "~" H 3850 7250 50  0001 C CNN
+	1    3850 7250
+	-1   0    0    1   
+$EndComp
 $Comp
 L Device:LED YSL-R531R3D-D1
 U 1 1 5D5894B2
-P 3850 6100
-F 0 "YSL-R531R3D-D1" H 3843 5845 50  0001 C CNN
-F 1 "LED2" H 3843 5936 50  0000 C CNN
-F 2 "library_express_pro:RLC_EIA_3216" H 3850 6100 50  0001 C CNN
-F 3 "~" H 3850 6100 50  0001 C CNN
-	1    3850 6100
+P 3850 6650
+F 0 "YSL-R531R3D-D1" H 3843 6395 50  0001 C CNN
+F 1 "LED2" H 3843 6486 50  0000 C CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 3850 6650 50  0001 C CNN
+F 3 "~" H 3850 6650 50  0001 C CNN
+	1    3850 6650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3700 6100 3600 6100
-Text GLabel 3600 6100 0    50   Input ~ 0
+	3700 6650 3600 6650
+Text GLabel 6500 7600 2    50   Input ~ 0
 GPIO16
 $Comp
 L power:GND #PWR0106
@@ -712,12 +712,12 @@ Wire Wire Line
 $Comp
 L Device:LED YSL-R531R3D-D3
 U 1 1 5D591864
-P 3850 6650
-F 0 "YSL-R531R3D-D3" H 3843 6395 50  0001 C CNN
-F 1 "LED3" H 3843 6486 50  0000 C CNN
-F 2 "library_express_pro:RLC_EIA_3216" H 3850 6650 50  0001 C CNN
-F 3 "~" H 3850 6650 50  0001 C CNN
-	1    3850 6650
+P 3850 6100
+F 0 "YSL-R531R3D-D3" H 3843 5845 50  0001 C CNN
+F 1 "LED3" H 3843 5936 50  0000 C CNN
+F 2 "library_express_pro:RLC_EIA_3216" H 3850 6100 50  0001 C CNN
+F 3 "~" H 3850 6100 50  0001 C CNN
+	1    3850 6100
 	-1   0    0    1   
 $EndComp
 Text GLabel 6900 4100 0    50   Input ~ 0
@@ -1045,11 +1045,11 @@ Wire Wire Line
 	6300 7050 6500 7050
 Wire Wire Line
 	6300 6450 6500 6450
-Text GLabel 6500 7600 2    50   Input ~ 0
+Text GLabel 3600 7250 0    50   Input ~ 0
 GPIO5
-Text GLabel 6500 7050 2    50   Input ~ 0
+Text GLabel 3600 6650 0    50   Input ~ 0
 GPIO6
-Text GLabel 6500 6450 2    50   Input ~ 0
+Text GLabel 3600 5550 0    50   Input ~ 0
 GPIO13
 $Comp
 L Switch:SW_DIP_x01 Button2
@@ -1084,7 +1084,7 @@ F 3 "~" H 6000 7600 50  0001 C CNN
 	1    6000 7600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6500 5900 2    50   Input ~ 0
+Text GLabel 6500 6450 2    50   Input ~ 0
 GPIO26
 Wire Wire Line
 	6300 5900 6500 5900
@@ -1116,13 +1116,13 @@ Wire Wire Line
 Text GLabel 5550 5800 1    50   Input ~ 0
 +3.3V
 Wire Wire Line
-	4100 5550 4000 5550
-Wire Wire Line
-	4100 6100 4000 6100
+	4100 7250 4000 7250
 Wire Wire Line
 	4100 6650 4000 6650
 Wire Wire Line
-	4100 7250 4000 7250
+	4100 6100 4000 6100
+Wire Wire Line
+	4100 5550 4000 5550
 Wire Wire Line
 	5150 5550 5250 5550
 Wire Wire Line
@@ -1313,4 +1313,8 @@ Wire Wire Line
 	2000 2650 2000 2600
 Wire Wire Line
 	2000 2600 2500 2600
+Text GLabel 7550 3600 2    50   Input ~ 0
+GPIO8
+Wire Wire Line
+	7500 3600 7550 3600
 $EndSCHEMATC
