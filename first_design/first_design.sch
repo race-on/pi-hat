@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0101
-U 1 1 5D13978C
-P 600 3450
-F 0 "#PWR0101" H 600 3200 50  0001 C CNN
-F 1 "GND" H 605 3277 50  0000 C CNN
-F 2 "" H 600 3450 50  0001 C CNN
-F 3 "" H 600 3450 50  0001 C CNN
-	1    600  3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 MotorConnector1
 U 1 1 5D0E23A8
 P 8750 1050
@@ -82,8 +71,6 @@ F 3 "~" H 7200 3400 50  0001 C CNN
 	1    7200 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 600  2900 1    50   Input ~ 0
-Vbat
 $Comp
 L first_design-rescue:VNH7070BAS-Driver_Motor IC5
 U 1 1 5D38AD07
@@ -222,17 +209,6 @@ GPIO5
 Text GLabel 6900 4300 0    50   Input ~ 0
 GPIO26
 $Comp
-L power:GND #PWR0112
-U 1 1 5D46516E
-P 2200 3550
-F 0 "#PWR0112" H 2200 3300 50  0001 C CNN
-F 1 "GND" H 2205 3377 50  0000 C CNN
-F 2 "" H 2200 3550 50  0001 C CNN
-F 3 "" H 2200 3550 50  0001 C CNN
-	1    2200 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5D5584A0
 P 10050 2600
@@ -249,19 +225,6 @@ Wire Wire Line
 	9850 2800 9750 2800
 Wire Wire Line
 	7000 2700 6900 2700
-Wire Wire Line
-	2500 2400 2350 2400
-$Comp
-L Device:Q_NMOS_DGS 2N7002K2
-U 1 1 5D253C78
-P 2100 3150
-F 0 "2N7002K2" H 2306 3196 50  0000 L CNN
-F 1 "NMOS_DGS" H 2306 3105 50  0000 L CNN
-F 2 "library_express_pro:SOT23" H 2300 3250 50  0001 C CNN
-F 3 "~" H 2100 3150 50  0001 C CNN
-	1    2100 3150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 5D35AE32
@@ -274,8 +237,6 @@ F 3 "" H 9150 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7500 2350 1    50   Input ~ 0
-+5V
-Text GLabel 1750 2400 0    50   Input ~ 0
 +5V
 Text GLabel 7000 2400 1    50   Input ~ 0
 +3.3V
@@ -310,45 +271,6 @@ Text GLabel 6900 2600 0    50   Input ~ 0
 SDA
 Text GLabel 6900 2700 0    50   Input ~ 0
 SCL
-$Comp
-L first_design-rescue:BD48K60-Sensor_Voltage IC1
-U 1 1 5D1051D4
-P 1100 3300
-F 0 "IC1" H 1075 3085 50  0001 C CNN
-F 1 "BD48K60" H 1075 3176 50  0000 C CNN
-F 2 "library_express_pro:SSOP3" H 1100 3200 50  0001 C CNN
-F 3 "" H 1100 3200 50  0001 C CNN
-	1    1100 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	600  3150 700  3150
-Wire Wire Line
-	600  2900 600  3150
-Wire Wire Line
-	700  3250 600  3250
-$Comp
-L Device:Buzzer AI1027TWT5V2R1
-U 1 1 5D1433A0
-P 2600 2500
-F 0 "AI1027TWT5V2R1" H 2558 2652 50  0001 L CNN
-F 1 "Buzzer" V 2649 2652 50  0000 L CNN
-F 2 "library_express_pro:Buzzer_AI1027TWT5V2R" V 2575 2600 50  0001 C CNN
-F 3 "~" V 2575 2600 50  0001 C CNN
-	1    2600 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP1
-U 1 1 5D702DEB
-P 2050 2400
-F 0 "JP1" H 2050 2664 50  0000 C CNN
-F 1 "Jumper" H 2050 2573 50  0000 C CNN
-F 2 "library_express_pro:standard_jumper" H 2050 2400 50  0001 C CNN
-F 3 "~" H 2050 2400 50  0001 C CNN
-	1    2050 2400
-	1    0    0    -1  
-$EndComp
 Text GLabel 1150 7100 0    50   Input ~ 0
 GPIO8
 Text GLabel 2850 6500 1    50   Input ~ 0
@@ -539,8 +461,6 @@ Text GLabel 8950 1250 0    50   Input ~ 0
 GPIO23
 Wire Wire Line
 	1250 4900 1150 4900
-Text GLabel 1150 4650 1    50   Input ~ 0
-Vbat
 $Comp
 L power:GND #PWR0125
 U 1 1 5DCF2522
@@ -586,7 +506,7 @@ Wire Wire Line
 	3700 6100 3600 6100
 Wire Wire Line
 	3700 7250 3600 7250
-Text GLabel 3600 6100 0    50   Input ~ 0
+Text GLabel 10150 4650 2    50   Input ~ 0
 GPIO12
 $Comp
 L Device:LED YSL-R531R3D-D2
@@ -692,10 +612,6 @@ Wire Wire Line
 	7000 4000 6900 4000
 Text GLabel 6900 4000 0    50   Input ~ 0
 GPIO6
-Wire Wire Line
-	1450 3150 1800 3150
-Wire Wire Line
-	2200 3350 2200 3550
 $Comp
 L Device:R R3
 U 1 1 5D97291A
@@ -1172,7 +1088,7 @@ Wire Wire Line
 Connection ~ 7500 2500
 Wire Wire Line
 	7000 2500 7000 2400
-Text GLabel 10150 4650 2    50   Input ~ 0
+Text GLabel 3600 6100 0    50   Input ~ 0
 GPIO25
 Text GLabel 7550 3200 2    50   Input ~ 0
 GPIO23
@@ -1249,32 +1165,150 @@ Wire Wire Line
 	10550 4600 10550 4750
 Wire Wire Line
 	10550 4750 10150 4750
-Wire Wire Line
-	600  3250 600  3450
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP2
-U 1 1 5DD75AAE
-P 2000 2800
-F 0 "JP2" H 2000 3005 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 2000 2914 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2000 2800 50  0001 C CNN
-F 3 "~" H 2000 2800 50  0001 C CNN
-	1    2000 2800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2200 2950 2200 2800
-Wire Wire Line
-	1800 2800 1800 3150
-Connection ~ 1800 3150
-Wire Wire Line
-	1800 3150 1900 3150
-Wire Wire Line
-	2000 2650 2000 2600
-Wire Wire Line
-	2000 2600 2500 2600
 Text GLabel 7550 3600 2    50   Input ~ 0
 GPIO8
 Wire Wire Line
 	7500 3600 7550 3600
+Wire Wire Line
+	2600 3850 2500 3850
+Wire Wire Line
+	2600 3750 2600 3850
+Text GLabel 2600 3750 1    50   Input ~ 0
++5V
+Wire Wire Line
+	2100 3850 2100 3950
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP4
+U 1 1 5D49580A
+P 2300 3850
+F 0 "JP4" H 2300 4055 50  0001 C CNN
+F 1 "SolderJumper_3_Bridged12" H 2300 3964 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2300 3850 50  0001 C CNN
+F 3 "~" H 2300 3850 50  0001 C CNN
+	1    2300 3850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2000 2900 2300 2900
+Connection ~ 2200 2150
+Wire Wire Line
+	2200 2150 2200 2250
+Wire Wire Line
+	2200 2150 2200 2100
+Wire Wire Line
+	1800 2150 2200 2150
+$Comp
+L Device:R R_IR2
+U 1 1 5D456F61
+P 1800 2300
+F 0 "R_IR2" H 1870 2346 50  0001 L CNN
+F 1 "220" H 1730 2300 50  0001 R CNN
+F 2 "library_express_pro:RLC_EIA_3216" V 1730 2300 50  0001 C CNN
+F 3 "~" H 1800 2300 50  0001 C CNN
+	1    1800 2300
+	-1   0    0    1   
+$EndComp
+Connection ~ 1800 2750
+Wire Wire Line
+	1800 2450 1900 2450
+Wire Wire Line
+	1800 2750 1800 2450
+Wire Wire Line
+	1800 2750 1800 2950
+Wire Wire Line
+	2200 2650 2200 2750
+$Comp
+L Device:Q_PMOS_DGS Q1
+U 1 1 5D3CC9F0
+P 2100 2450
+F 0 "Q1" H 2306 2496 50  0001 L CNN
+F 1 "Q_PMOS_DGS" H 2306 2405 50  0001 L CNN
+F 2 "library_express_pro:SOT23" H 2300 2550 50  0001 C CNN
+F 3 "~" H 2100 2450 50  0001 C CNN
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 5DD75AAE
+P 2000 2750
+F 0 "JP2" H 2000 2955 50  0001 C CNN
+F 1 "SolderJumper_3_Bridged12" H 2000 2864 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2000 2750 50  0001 C CNN
+F 3 "~" H 2000 2750 50  0001 C CNN
+	1    2000 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	600  3050 600  3250
+Wire Wire Line
+	1450 2950 1800 2950
+Text GLabel 1150 4650 1    50   Input ~ 0
+Vbat
+$Comp
+L Device:Jumper JP1
+U 1 1 5D702DEB
+P 2300 3400
+F 0 "JP1" H 2300 3664 50  0000 C CNN
+F 1 "Jumper" H 2300 3573 50  0000 C CNN
+F 2 "library_express_pro:standard_jumper" H 2300 3400 50  0001 C CNN
+F 3 "~" H 2300 3400 50  0001 C CNN
+	1    2300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Buzzer AI1027TWT5V2R1
+U 1 1 5D1433A0
+P 2400 3000
+F 0 "AI1027TWT5V2R1" H 2358 3152 50  0001 L CNN
+F 1 "Buzzer" V 2449 3152 50  0000 L CNN
+F 2 "library_express_pro:Buzzer_AI1027TWT5V2R" V 2375 3100 50  0001 C CNN
+F 3 "~" V 2375 3100 50  0001 C CNN
+	1    2400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  3050 600  3050
+Wire Wire Line
+	600  2700 600  2950
+Wire Wire Line
+	600  2950 700  2950
+$Comp
+L first_design-rescue:BD48K60-Sensor_Voltage IC1
+U 1 1 5D1051D4
+P 1100 3100
+F 0 "IC1" H 1075 2885 50  0001 C CNN
+F 1 "BD48K60" H 1075 2976 50  0000 C CNN
+F 2 "library_express_pro:SSOP3" H 1100 3000 50  0001 C CNN
+F 3 "" H 1100 3000 50  0001 C CNN
+	1    1100 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 2100 1    50   Input ~ 0
++5V
+$Comp
+L power:GND #PWR0112
+U 1 1 5D46516E
+P 2100 3950
+F 0 "#PWR0112" H 2100 3700 50  0001 C CNN
+F 1 "GND" H 2105 3777 50  0000 C CNN
+F 2 "" H 2100 3950 50  0001 C CNN
+F 3 "" H 2100 3950 50  0001 C CNN
+	1    2100 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 600  2700 1    50   Input ~ 0
+Vbat
+$Comp
+L power:GND #PWR0101
+U 1 1 5D13978C
+P 600 3250
+F 0 "#PWR0101" H 600 3000 50  0001 C CNN
+F 1 "GND" H 605 3077 50  0000 C CNN
+F 2 "" H 600 3250 50  0001 C CNN
+F 3 "" H 600 3250 50  0001 C CNN
+	1    600  3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 2450
 $EndSCHEMATC
