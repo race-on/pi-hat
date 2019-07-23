@@ -233,23 +233,6 @@ F 3 "" H 2200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5D5211C9
-P 10000 3700
-F 0 "J2" H 10080 3692 50  0001 L CNN
-F 1 "Accelerometer_small" H 10080 3646 50  0000 L CNN
-F 2 "library_express_pro:accelerometer_small" H 10000 3700 50  0001 C CNN
-F 3 "~" H 10000 3700 50  0001 C CNN
-	1    10000 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9800 3600 9700 3600
-Wire Wire Line
-	9800 3800 9700 3800
-Wire Wire Line
-	9800 3900 9700 3900
-$Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5D5584A0
 P 10050 2600
@@ -302,25 +285,6 @@ Wire Wire Line
 	7500 4300 7550 4300
 Wire Wire Line
 	7500 4400 7550 4400
-Text GLabel 9700 3450 1    50   Input ~ 0
-+3.3V
-$Comp
-L power:GND #PWR0122
-U 1 1 5D60AB58
-P 9400 3900
-F 0 "#PWR0122" H 9400 3650 50  0001 C CNN
-F 1 "GND" V 9405 3772 50  0000 R CNN
-F 2 "" H 9400 3900 50  0001 C CNN
-F 3 "" H 9400 3900 50  0001 C CNN
-	1    9400 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 3700 9800 3700
-Text GLabel 9700 3800 0    50   Input ~ 0
-SDA
-Text GLabel 9700 3900 0    50   Input ~ 0
-SCL
 Text GLabel 9650 2400 1    50   Input ~ 0
 +3.3V
 $Comp
@@ -1200,13 +1164,9 @@ Wire Wire Line
 Wire Wire Line
 	9450 2600 9450 2800
 Wire Wire Line
-	9400 3700 9400 3900
-Wire Wire Line
 	9650 2400 9650 2500
 Wire Wire Line
 	9650 2500 9850 2500
-Wire Wire Line
-	9700 3450 9700 3600
 Wire Wire Line
 	7500 2500 7500 2350
 Connection ~ 7500 2500
