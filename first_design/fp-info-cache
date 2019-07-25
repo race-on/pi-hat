@@ -1,75 +1,4 @@
-16000834581720143
-Adafruit HaD Proto HAT rev A
-1X25_ROUND_70MIL
-
-
-0
-25
-25
-Adafruit HaD Proto HAT rev A
-0805-NO
-
-
-0
-2
-2
-Adafruit HaD Proto HAT rev A
-ADAFRUIT_5MM
-
-
-0
-0
-0
-Adafruit HaD Proto HAT rev A
-FIDUCIAL_1MM
-
-
-0
-1
-1
-Adafruit HaD Proto HAT rev A
-HAD_LOGO_200MIL
-
-
-0
-0
-0
-Adafruit HaD Proto HAT rev A
-PCBFEAT-REV-056
-<b>Revision Level Field</b> - 56 mil<p>
-Set version with global board attribute '>REV'
-
-0
-0
-0
-Adafruit HaD Proto HAT rev A
-PIHATLOGO
-
-
-0
-0
-0
-Adafruit HaD Proto HAT rev A
-PI_HAT_NOSLOTS
-
-
-0
-40
-40
-Adafruit HaD Proto HAT rev A
-SOIC8_150MIL
-<b>Small Outline IC - 150mil Wide</b>
-
-0
-8
-8
-Adafruit HaD Proto HAT rev A
-SOLDERJUMPER_CLOSEDWIRE
-
-
-0
-3
-3
+16036796804430718
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49161,6 +49090,195 @@ Yellow 5381 Series LED
 0
 2
 2
+Library Expert
+accelerometer_small
+
+
+0
+4
+4
+Library Expert
+Accelerometer_standard
+
+
+0
+4
+4
+Library Expert
+button_6x6mm
+Header, Vertical, 6.00 mm pitch; 1.20 mm lead width, 4 pins, 2 rows, 2 pins per row, 9.65 mm L X 9.65 mm W X 10.00 mm H body
+
+0
+4
+4
+Library Expert
+Buzzer_AI-1223-TWT-5V-5-R
+Capacitor, Polarized, Radial (Electrolytic); 7.60 mm C X 12.20 mm Dia X 10.20 mm H body
+
+0
+2
+2
+Library Expert
+Buzzer_AI1027TWT5V2R
+Capacitor, Polarized, Radial (Electrolytic); 5.00 mm C X 9.80 mm Dia X 5.00 mm H body
+
+0
+2
+2
+Library Expert
+Capacitor_E61
+Capacitor, Aluminum Electrolytic; 5.30 mm L X 5.30 mm W X 6.10 mm H body
+
+0
+2
+2
+Library Expert
+Connector_pads
+Capacitor, Polarized, Dual Flat No-Lead (DFN 2 Pin); 2 pin, 15.25 mm L X 7.40 mm W X 27.00 mm H body
+
+0
+2
+2
+Library Expert
+Inductor_PA4340
+Inductor, Molded Body; 5.20 mm L X 5.20 mm W X 6.00 mm H body
+
+0
+2
+2
+Library Expert
+LED_YSL-R531R3D-D2
+Radial (LED); 2.54 mm C X 3.00 mm Dia X 13.40 mm H body
+
+0
+2
+2
+Library Expert
+motor_connector
+
+
+0
+2
+2
+Library Expert
+PTS636
+Diode, Non-Polarized, Small Outline Diode (SOD); 6.10 mm L X 3.70 mm W X 2.70 mm H body
+
+0
+2
+2
+Library Expert
+RaspberryPi_pins
+
+
+0
+40
+40
+Library Expert
+RasPi_Header_0.9
+Header, Vertical, 2.54 mm pitch; 0.90 mm lead width, 40 pins, 2 rows, 20 pins per row, 19.00 mm L X 5.50 mm W X 6.00 mm H body
+
+0
+40
+40
+Library Expert
+RasPi_header_pro
+Header, Vertical, 2.54 mm pitch; 0.80 mm lead width, 40 pins, 2 rows, 20 pins per row, 51.50 mm L X 6.25 mm W X 10.00 mm H body
+
+0
+40
+40
+Library Expert
+Resistor_array_YC324
+Resistor, Chip Array, 2 Side Convex, 1.27 mm pitch; 8 pin, 5.08 mm L X 3.20 mm W X 0.70 mm H body
+
+0
+8
+8
+Library Expert
+RLC_EIA_3216
+Capacitor, Chip; 3.20 mm L X 1.60 mm W X 1.35 mm H body
+
+0
+2
+2
+Library Expert
+R_1.2mm
+Resistor, Axial; 9.00 mm C X 1.275 mm W 6.00 mm L X 2.00 mm Dia body
+
+0
+2
+2
+Library Expert
+R_1.2mm_8mmPitch
+Resistor, Axial; 8.00 mm C X 1.275 mm W 5.20 mm L X 2.00 mm Dia body
+
+0
+2
+2
+Library Expert
+servo_connector
+
+
+0
+3
+3
+Library Expert
+SO-8
+Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.75 mm H body
+
+0
+8
+8
+Library Expert
+SO-8EP
+Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.63 mm H body
+
+0
+13
+9
+Library Expert
+SO-8L
+DPAK, 1.27 mm pitch; 4 pin, 4.37 mm L X 5.125 mm W X 1.14 mm H body
+
+0
+9
+3
+Library Expert
+SO-16N
+Small Outline IC (SOIC), 1.27 mm pitch; 16 pin, 9.89 mm L X 3.90 mm W X 1.75 mm H body
+
+0
+16
+16
+Library Expert
+SOT23
+Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.30 mm W X 1.12 mm H body
+
+0
+3
+3
+Library Expert
+SSOP3
+Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.90 mm L X 1.60 mm W X 1.25 mm H body
+
+0
+3
+3
+Library Expert
+standard_jumper
+Header, Vertical Shrouded, 2.54 mm pitch; 1.20 mm lead width, 2 pins, 1 row, 2 pins per row, 5.25 mm L X 2.75 mm W X 6.00 mm H body
+
+0
+2
+2
+Library Expert
+TO252-2
+DPAK, 2.286 mm pitch; 3 pin, 6.10 mm L X 6.575 mm W X 2.39 mm H body
+
+0
+13
+3
 library_express_pro
 accelerometer_small
 
@@ -61999,6 +62117,48 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Pi HAT Footprints
+CAPC320X160X180L50M
+Capacitor, Chip; 3.20 mm L X 1.60 mm W X 1.80 mm H body
+
+0
+2
+2
+Pi HAT Footprints
+CAPC320X250X180L50L
+Capacitor, Chip; 3.20 mm L X 2.50 mm W X 1.80 mm H body
+
+0
+2
+2
+Pi HAT Footprints
+DPAK3P457_1010X238L155X81T525X470M
+DPAK, 4.572 mm pitch; 2 pin, 6.10 mm L X 6.60 mm W X 2.38 mm H body
+
+0
+9
+3
+Pi HAT Footprints
+INDC800X800X450L240M
+Inductor, Chip; 8.00 mm L X 8.00 mm W X 4.50 mm H body
+
+0
+2
+2
+Pi HAT Footprints
+SOIC9P127_490X600X150L72X40T305X241L
+Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.85 mm W X 1.50 mm H body
+
+0
+15
+9
+Pi HAT Footprints
+SOIC16P127_990X600X175L83X41M
+Small Outline IC (SOIC), 1.27 mm pitch; 16 pin, 9.90 mm L X 3.90 mm W X 1.75 mm H body
+
+0
+16
+16
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf

@@ -242,10 +242,10 @@ F 3 "~" H 2450 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED IR_LED1
+L Device:LED IRD1
 U 1 1 5D78C6B1
 P 2150 6650
-F 0 "IR_LED1" H 2143 6395 50  0000 C CNN
+F 0 "IRD1" H 2143 6395 50  0000 C CNN
 F 1 "IR_LED" H 2143 6486 50  0001 C CNN
 F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 2150 6650 50  0001 C CNN
 F 3 "~" H 2150 6650 50  0001 C CNN
@@ -420,7 +420,7 @@ F 3 "~" H 1600 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5550 5950 2    50   Input ~ 0
-GPIO21
+GPIO20
 Text GLabel 10150 4650 2    50   Input ~ 0
 GPIO12
 $Comp
@@ -705,7 +705,7 @@ F 3 "~" H 5050 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5550 6300 2    50   Input ~ 0
-GPIO26
+GPIO21
 Wire Wire Line
 	5350 5950 5550 5950
 $Comp
