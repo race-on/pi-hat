@@ -2,6 +2,7 @@ To Do
 =====
 
 For the next production batch:
+  - Set motor PWM to GPIO13!!!
   - Select as many components as possible from the Seeed OPL
   - Mark motor and battery connectors on the PCB using silk screen, + - and type
   - Move buttons in a row and move LEds in a rows, provide marking area on the silkscreen
