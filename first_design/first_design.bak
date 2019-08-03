@@ -228,79 +228,6 @@ Text GLabel 6900 2600 0    50   Input ~ 0
 SDA
 Text GLabel 6900 2700 0    50   Input ~ 0
 SCL
-Text GLabel 1150 7100 0    50   Input ~ 0
-GPIO8
-$Comp
-L Device:R R7
-U 1 1 5D763AFF
-P 2450 6650
-F 0 "R7" H 2520 6696 50  0000 L CNN
-F 1 "220" H 2380 6650 50  0001 R CNN
-F 2 "library_express_pro:RLC_EIA_3216" V 2380 6650 50  0001 C CNN
-F 3 "~" H 2450 6650 50  0001 C CNN
-	1    2450 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED IR_LED1
-U 1 1 5D78C6B1
-P 2150 6650
-F 0 "IR_LED1" H 2143 6395 50  0000 C CNN
-F 1 "IR_LED" H 2143 6486 50  0001 C CNN
-F 2 "library_express_pro:LED_YSL-R531R3D-D2" H 2150 6650 50  0001 C CNN
-F 3 "~" H 2150 6650 50  0001 C CNN
-	1    2150 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5D7B496E
-P 1700 7500
-F 0 "#PWR0124" H 1700 7250 50  0001 C CNN
-F 1 "GND" H 1705 7327 50  0000 C CNN
-F 2 "" H 1700 7500 50  0001 C CNN
-F 3 "" H 1700 7500 50  0001 C CNN
-	1    1700 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 7300 1700 7450
-Wire Wire Line
-	1700 7450 1700 7500
-Connection ~ 1700 7450
-Wire Wire Line
-	1400 7450 1700 7450
-$Comp
-L Device:Q_NMOS_DGS Q1
-U 1 1 5D7B4978
-P 1600 7100
-F 0 "Q1" H 1806 7146 50  0000 L CNN
-F 1 "2N7002K" H 1806 7055 50  0001 L CNN
-F 2 "library_express_pro:SOT23" H 1800 7200 50  0001 C CNN
-F 3 "~" H 1600 7100 50  0001 C CNN
-	1    1600 7100
-	1    0    0    -1  
-$EndComp
-Connection ~ 1400 7100
-Wire Wire Line
-	1400 7100 1400 7150
-$Comp
-L Device:R R4
-U 1 1 5D7B4980
-P 1400 7300
-F 0 "R4" H 1450 7350 50  0000 L CNN
-F 1 "22.1k" H 1450 7250 50  0000 L CNN
-F 2 "library_express_pro:RLC_EIA_3216" V 1330 7300 50  0001 C CNN
-F 3 "~" H 1400 7300 50  0001 C CNN
-	1    1400 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 7100 1400 7100
-Wire Wire Line
-	1700 6650 2000 6650
-Wire Wire Line
-	1700 6650 1700 6900
 Text GLabel 2700 4900 2    50   Input ~ 0
 Vservo
 $Comp
@@ -390,7 +317,7 @@ U 1 1 5DC831BF
 P 1600 5000
 F 0 "IC2" H 1600 5350 50  0000 C CNN
 F 1 "AZ2085D-ADJTRG1" H 1600 5250 50  0000 C CNN
-F 2 "library_express_pro:TO252-2" H 1600 4700 50  0001 C CNN
+F 2 "Pi HAT Footprints:DPAK3P457_1010X238L155X81T525X470M" H 1600 4700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/AZ2085-335332.pdf" H 1600 4700 50  0001 C CNN
 	1    1600 5000
 	1    0    0    -1  
@@ -420,7 +347,7 @@ F 3 "~" H 1600 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5550 5950 2    50   Input ~ 0
-GPIO21
+GPIO20
 Text GLabel 10150 4650 2    50   Input ~ 0
 GPIO12
 $Comp
@@ -479,17 +406,6 @@ Wire Wire Line
 	7000 4000 6900 4000
 Text GLabel 6900 4000 0    50   Input ~ 0
 GPIO6
-$Comp
-L Device:R R3
-U 1 1 5D97291A
-P 2500 5150
-F 0 "R3" H 2650 5200 50  0000 L CNN
-F 1 "66.3k" H 2800 5100 50  0000 R CNN
-F 2 "library_express_pro:RLC_EIA_3216" V 2430 5150 50  0001 C CNN
-F 3 "~" H 2500 5150 50  0001 C CNN
-	1    2500 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP3
 U 1 1 5D994E08
@@ -705,7 +621,7 @@ F 3 "~" H 5050 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5550 6300 2    50   Input ~ 0
-GPIO26
+GPIO21
 Wire Wire Line
 	5350 5950 5550 5950
 $Comp
@@ -723,10 +639,6 @@ Wire Wire Line
 	4600 6300 4750 6300
 Wire Wire Line
 	4600 5950 4750 5950
-Wire Wire Line
-	2600 6650 2850 6650
-Wire Wire Line
-	2850 6500 2850 6650
 Wire Wire Line
 	1050 4850 1050 4900
 Wire Wire Line
@@ -822,77 +734,11 @@ GPIO8
 Wire Wire Line
 	7500 3600 7550 3600
 Wire Wire Line
-	2600 3850 2500 3850
-Wire Wire Line
 	2600 3750 2600 3850
-Wire Wire Line
-	2100 3850 2100 3950
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP4
-U 1 1 5D49580A
-P 2300 3850
-F 0 "JP4" H 2300 4055 50  0001 C CNN
-F 1 "SolderJumper_3_Bridged12" H 2300 3964 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2300 3850 50  0001 C CNN
-F 3 "~" H 2300 3850 50  0001 C CNN
-	1    2300 3850
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2000 2900 2300 2900
-Connection ~ 2200 2150
-Wire Wire Line
-	2200 2150 2200 2250
-Wire Wire Line
-	2200 2150 2200 2100
-Wire Wire Line
-	1800 2150 2200 2150
-$Comp
-L Device:R R8
-U 1 1 5D456F61
-P 1800 2300
-F 0 "R8" H 1870 2346 50  0001 L CNN
-F 1 "220" H 1730 2300 50  0001 R CNN
-F 2 "library_express_pro:RLC_EIA_3216" V 1730 2300 50  0001 C CNN
-F 3 "~" H 1800 2300 50  0001 C CNN
-	1    1800 2300
-	-1   0    0    1   
-$EndComp
-Connection ~ 1800 2750
-Wire Wire Line
-	1800 2450 1900 2450
-Wire Wire Line
-	1800 2750 1800 2450
-Wire Wire Line
-	1800 2750 1800 2950
-Wire Wire Line
-	2200 2650 2200 2750
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP2
-U 1 1 5DD75AAE
-P 2000 2750
-F 0 "JP2" H 2000 2955 50  0001 C CNN
-F 1 "SolderJumper_3_Bridged12" H 2000 2864 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2000 2750 50  0001 C CNN
-F 3 "~" H 2000 2750 50  0001 C CNN
-	1    2000 2750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	600  3050 600  3250
 Wire Wire Line
 	1450 2950 1800 2950
-$Comp
-L Device:Jumper JP1
-U 1 1 5D702DEB
-P 2300 3400
-F 0 "JP1" H 2300 3664 50  0000 C CNN
-F 1 "Jumper" H 2300 3573 50  0001 C CNN
-F 2 "library_express_pro:standard_jumper" H 2300 3400 50  0001 C CNN
-F 3 "~" H 2300 3400 50  0001 C CNN
-	1    2300 3400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:Buzzer LS1
 U 1 1 5D1433A0
@@ -922,17 +768,6 @@ F 3 "" H 1100 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
-U 1 1 5D46516E
-P 2100 3950
-F 0 "#PWR0112" H 2100 3700 50  0001 C CNN
-F 1 "GND" H 2105 3777 50  0000 C CNN
-F 2 "" H 2100 3950 50  0001 C CNN
-F 3 "" H 2100 3950 50  0001 C CNN
-	1    2100 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5D13978C
 P 600 3250
@@ -941,18 +776,6 @@ F 1 "GND" H 605 3077 50  0000 C CNN
 F 2 "" H 600 3250 50  0001 C CNN
 F 3 "" H 600 3250 50  0001 C CNN
 	1    600  3250
-	1    0    0    -1  
-$EndComp
-Connection ~ 1800 2450
-$Comp
-L Device:Q_PMOS_GSD Q2
-U 1 1 5D52CA05
-P 2100 2450
-F 0 "Q2" H 2306 2450 50  0000 L CNN
-F 1 "DMG2301L-7" H 2306 2405 50  0001 L CNN
-F 2 "library_express_pro:SOT23" H 2300 2550 50  0001 C CNN
-F 3 "~" H 2100 2450 50  0001 C CNN
-	1    2100 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1000,17 +823,6 @@ F 3 "" H 7500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0139
-U 1 1 5D5B9A63
-P 2850 6500
-F 0 "#PWR0139" H 2850 6350 50  0001 C CNN
-F 1 "+5V" H 2865 6673 50  0000 C CNN
-F 2 "" H 2850 6500 50  0001 C CNN
-F 3 "" H 2850 6500 50  0001 C CNN
-	1    2850 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0140
 U 1 1 5D5CC1A0
 P 2600 3750
@@ -1019,17 +831,6 @@ F 1 "+5V" H 2615 3923 50  0000 C CNN
 F 2 "" H 2600 3750 50  0001 C CNN
 F 3 "" H 2600 3750 50  0001 C CNN
 	1    2600 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0141
-U 1 1 5D5DE88A
-P 2200 2100
-F 0 "#PWR0141" H 2200 1950 50  0001 C CNN
-F 1 "+5V" H 2215 2273 50  0000 C CNN
-F 2 "" H 2200 2100 50  0001 C CNN
-F 3 "" H 2200 2100 50  0001 C CNN
-	1    2200 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1339,4 +1140,14 @@ Wire Wire Line
 Wire Wire Line
 	4600 6750 4600 7100
 Connection ~ 4600 7100
+Wire Wire Line
+	1800 2900 1800 2950
+Wire Wire Line
+	1800 2900 2300 2900
+Wire Wire Line
+	2250 3100 2250 3850
+Wire Wire Line
+	2250 3850 2600 3850
+Wire Wire Line
+	2250 3100 2300 3100
 $EndSCHEMATC
