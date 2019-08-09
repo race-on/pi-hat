@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP5901B
+D Half-bridge MOSFET driver
+F https://www.mouser.com/datasheet/2/308/NCP5901B-D-61323.pdf
+$ENDCMP
+#
+$CMP VNH7070BAS
+D Automotive fully integrated H-bridge motor driver
+K H-bridge, Motor Driver
+F https://www.mouser.com/datasheet/2/389/vnh7070bas-1156328.pdf
+$ENDCMP
+#
+#End Doc Library

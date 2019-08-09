@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP5901B
+D Half-bridge MOSFET driver
+F https://www.mouser.com/datasheet/2/308/NCP5901B-D-61323.pdf
+$ENDCMP
+#
+$CMP Si7288DP
+D 20A Id, 40V Vds, 20mOhm, Dual N-Channel MOSFET, Powerpack SO-8
+K Dual N-Channel MOSFET
+F http://file.elecfans.com/web1/M00/9E/50/o4YBAF05Pv6AEUqpAAUPoFQWhdI611.pdf
+$ENDCMP
+#
+$CMP VNH7070BAS
+D Automotive fully integrated H-bridge motor driver
+K H-bridge, Motor Driver
+F https://www.mouser.com/datasheet/2/389/vnh7070bas-1156328.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (( 'STEP AP214' ), '1' );
 FILE_NAME ( 'SOIC16P127_990X600X175L83X41.STEP',
-    '2019-07-24T22:48:49',
+    '2019-08-06T21:09:15',
     ( '' ),
     ( '' ),
     'Part was generated with the free Library Expert Lite available at www.PCBLibraries.com. Removing line will violate the End User License Agreement.',

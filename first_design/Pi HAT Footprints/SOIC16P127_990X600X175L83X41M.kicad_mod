@@ -1,4 +1,4 @@
-(module SOIC16P127_990X600X175L83X41M (layer F.Cu) (tedit 5D394AD8)
+(module SOIC16P127_990X600X175L83X41M (layer F.Cu) (tedit 5D4A504A)
   (descr "Small Outline IC (SOIC), 1.27 mm pitch; 16 pin, 9.90 mm L X 3.90 mm W X 1.75 mm H body")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
@@ -82,7 +82,6 @@
   (fp_line (start -5 -2) (end 5 -2) (layer F.Fab) (width 0.12))
   (fp_line (start 5 -2) (end 5 2) (layer F.Fab) (width 0.12))
   (fp_line (start 5 2) (end -5 2) (layer F.Fab) (width 0.12))
-  (fp_circle (center -4.445 3.76) (end -4.445 3.81) (layer F.SilkS) (width 0.1))
   (fp_line (start -5.01 2) (end -5.01 -2) (layer F.SilkS) (width 0.15))
   (fp_line (start 5.01 2) (end 5.01 -2) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.01 2) (end -5.01 3.435) (layer F.SilkS) (width 0.15))
@@ -114,4 +113,9 @@
   (pad 14 smd roundrect (at -1.905 -2.425 90) (size 2.17 0.68) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 15 smd roundrect (at -3.175 -2.425 90) (size 2.17 0.68) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 16 smd roundrect (at -4.445 -2.425 90) (size 2.17 0.68) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (model ":3D Models:SOIC16P127_990X600X175L83X41.STEP"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

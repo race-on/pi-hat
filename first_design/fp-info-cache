@@ -1,4 +1,4 @@
-16036796804430718
+16038362717018718
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -62145,6 +62145,13 @@ Inductor, Chip; 8.00 mm L X 8.00 mm W X 4.50 mm H body
 0
 2
 2
+Pi HAT Footprints
+logo
+
+
+0
+0
+0
 Pi HAT Footprints
 SOIC9P127_490X600X150L72X40T305X241L
 Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.85 mm W X 1.50 mm H body
