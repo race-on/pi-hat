@@ -1,14 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BD48K60G
+D 6V Voltage Detector
+F https://www.mouser.com/datasheet/2/348/bd48xxg-e-746174.pdf
+$ENDCMP
+#
+$CMP LMR14030
+D Buck Converter 40V, 3.5 A, 2.2 MHz 
+F http://file.elecfans.com/web1/M00/9E/EF/o4YBAF1AnLeARDoVABUQ0oU7ps0063.pdf
+$ENDCMP
+#
 $CMP NCP5901B
 D Half-bridge MOSFET driver
 F https://www.mouser.com/datasheet/2/308/NCP5901B-D-61323.pdf
 $ENDCMP
 #
-$CMP Si7288DP
-D 20A Id, 40V Vds, 20mOhm, Dual N-Channel MOSFET, Powerpack SO-8
-K Dual N-Channel MOSFET
-F http://file.elecfans.com/web1/M00/9E/50/o4YBAF05Pv6AEUqpAAUPoFQWhdI611.pdf
+$CMP SPX29302T5
+D 3A Low Dropout Adjustable Voltage Regulator
+F http://file.elecfans.com/web1/M00/9E/FC/o4YBAF1BB52AVR0bAAo2bopYZSM701.pdf
 $ENDCMP
 #
 $CMP VNH7070BAS

@@ -464,7 +464,7 @@ F 3 "http://forums.parallax.com/uploads/attachments/46831/74481.png" H 9650 4660
 	1    0    0    -1  
 $EndComp
 Text Notes 7300 4400 0    157  ~ 0
-Motor Controller
+Servo Power Supply
 $Comp
 L RaceOn-PiHAT:NCP5901B IC?
 U 1 1 5D50B3A9
@@ -1877,4 +1877,6 @@ Wire Wire Line
 	9750 5900 9800 5900
 Wire Wire Line
 	9100 4850 9100 5650
+Text Notes 6350 750  0    157  ~ 0
+Motor Controller
 $EndSCHEMATC
