@@ -6,20 +6,20 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Race On – Pi HAT"
-Date "2019-08-12"
+Date "2019-08-15"
 Rev "1"
 Comp "University of Southern California"
 Comment1 "Ming Hsieh Department of Electrical and Computer Engineering"
 Comment2 "sponsored by"
 Comment3 ""
-Comment4 "Race On - A Self-Driving Car Competition                             http://raceon.com/"
+Comment4 "Race On - A Self-Driving Car Competition                                http://raceon.io/"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5D0B3C18
 P 1050 5150
 F 0 "J1" H 1000 5250 50  0000 L CNN
-F 1 "Battery" H 1130 5051 50  0001 L CNN
+F 1 "BATTERY" H 1130 5051 50  0001 L CNN
 F 2 "Race On:CON2P" H 1050 5150 50  0001 C CNN
 F 3 "~" H 1050 5150 50  0001 C CNN
 	1    1050 5150
@@ -30,7 +30,7 @@ L Connector_Generic:Conn_01x04 J2
 U 1 1 5D5584A0
 P 5800 5200
 F 0 "J2" H 5750 5400 50  0000 L CNN
-F 1 "Accelerometer" H 5880 5146 50  0001 L CNN
+F 1 "ACCELEROMETER" H 5880 5146 50  0001 L CNN
 F 2 "Race On:HDRV4W64P254_4X1_1016X254H854" H 5800 5200 50  0001 C CNN
 F 3 "~" H 5800 5200 50  0001 C CNN
 	1    5800 5200
@@ -235,16 +235,16 @@ Wire Wire Line
 Wire Wire Line
 	2550 6950 2500 6950
 Text Notes 4950 1100 0    50   ~ 0
-Create footprints for parts\nTruth table on how to controll motor
+Truth table on how to controll motor
 $Comp
 L Motor:Motor_Servo M1
 U 1 1 5D4B5C0B
 P 4200 1300
 F 0 "M1" H 4532 1365 50  0000 L CNN
-F 1 "Servo" H 4532 1274 50  0000 L CNN
+F 1 "SERVO" H 4532 1274 50  0000 L CNN
 F 2 "Race On:HDRV3W64P254_3X1_762X254H854" H 4200 1110 50  0001 C CNN
 F 3 "" H 4200 1110 50  0001 C CNN
-F 4 "A2543WR-3P-2" H 4200 1100 20  0000 C CNN "MPN"
+F 4 "NOT IN OPL" H 4200 1100 20  0000 C CNN "MPN"
 	1    4200 1300
 	1    0    0    -1  
 $EndComp
@@ -386,7 +386,7 @@ L Motor:Motor_DC_ALT M2
 U 1 1 5D5C6162
 P 9650 2300
 F 0 "M2" H 9850 2250 50  0000 C CNN
-F 1 "Mabuchi 540" V 9843 2250 50  0001 C CNN
+F 1 "MOTOR" V 9843 2250 50  0001 C CNN
 F 2 "Race On:CON2P" H 9650 2210 50  0001 C CNN
 F 3 "" H 9650 2210 50  0001 C CNN
 F 4 "NOT IN OPL" H 9850 2150 20  0000 C CNN "MPN"
@@ -978,8 +978,8 @@ DC-DC Power Supply
 Wire Wire Line
 	6500 5750 6500 5650
 Connection ~ 6500 5650
-Text Notes 8900 4800 0    50   ~ 0
-Create footprints\nDescribe output performance
+Text Notes 9300 5200 0    50   ~ 0
+5V ± 0.25V at 3.5A max load
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J3
 U 1 1 5D0DCA59
@@ -1118,8 +1118,6 @@ F 3 "~" H 2800 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2600 1350 2600 1500
-Text Notes 650  2950 0    50   ~ 0
-Create footprints\nRoute this part\n
 $Comp
 L Device:R R5
 U 1 1 5E3A45D2
@@ -1911,12 +1909,12 @@ $EndComp
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5D55ABFE
-P 4100 7900
-F 0 "FID1" H 4185 7946 50  0000 L CNN
-F 1 "Fiducial" H 4185 7855 50  0000 L CNN
-F 2 "Race On:FID1M3" H 4100 7900 50  0001 C CNN
-F 3 "~" H 4100 7900 50  0001 C CNN
-	1    4100 7900
+P 4400 7900
+F 0 "FID1" H 4485 7946 50  0000 L CNN
+F 1 "Fiducial" H 4485 7855 50  0000 L CNN
+F 2 "Race On:FID1M3" H 4400 7900 50  0001 C CNN
+F 3 "~" H 4400 7900 50  0001 C CNN
+	1    4400 7900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1966,5 +1964,16 @@ F 3 "" H 2350 5350 50  0001 C CNN
 F 4 "ORH-YG35A" V 2250 5500 20  0000 C CNN "MPN"
 	1    2350 5350
 	0    1    -1   0   
+$EndComp
+$Comp
+L RaceOn-PiHAT:RACEON-LOGO LOGO1
+U 1 1 5D55E528
+P 4000 7900
+F 0 "LOGO1" H 4000 7900 50  0001 C CNN
+F 1 "RACEON-LOGO" H 4000 7900 50  0001 C CNN
+F 2 "Race On:RACEON-LOGO" H 4000 7900 50  0001 C CNN
+F 3 "" H 4000 7900 50  0001 C CNN
+	1    4000 7900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
