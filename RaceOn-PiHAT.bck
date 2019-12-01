@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP MPU-9250
+F https://www.sparkfun.com/products/13762
+$ENDCMP
+#
 $CMP SolderJumper
 D 3-pole Solder Jumper, pins 1+2 closed/bridged
 K Solder Jumper SPDT

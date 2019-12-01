@@ -1,0 +1,52 @@
+### Module positions - created on Thursday, August 15, 2019 at 11:21:24 PM ###
+### Printed by Pcbnew version kicad (5.1.2-1)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                       PosX       PosY       Rot  Side
+C1        100nF       CAPC200X125X95L45M                        141.5500   -84.5500    0.0000  top
+C2        47nF        CAPC200X125X95L45M                        137.8150   -76.0500  180.0000  top
+C3        4.7uF       CAPC320X160X180L50M                       179.0000   -96.0000  180.0000  top
+C4        1uF         CAPC200X125X95L45M                        174.0000   -91.2500  180.0000  top
+C5        27nF        CAPC200X125X95L45M                        137.6000   -84.5500  180.0000  top
+C6        100nF       CAPC200X125X95L45M                        141.5500   -93.0500    0.0000  top
+C7        47nF        CAPC200X125X95L45M                        124.6000   -92.5500   90.0000  top
+C8        1uF         CAPC200X125X95L45M                        145.5500   -76.0500    0.0000  top
+C9        1uF         CAPC200X125X95L45M                        145.5500   -84.5500    0.0000  top
+C10       4.7uF       CAPC320X160X180L50M                       135.5500   -94.8000  180.0000  top
+C11       100uF       CAPPM730X435X310L135X240L                 133.5500  -106.0500  180.0000  top
+C12       100nF       CAPC200X125X95L45M                        136.2000  -101.4500  270.0000  top
+C13       4.7uF       CAPC320X160X180L50M                       135.6000  -110.2500    0.0000  top
+C14       47uF        CAPC320X250X270L60M                       154.9000   -98.3500   90.0000  top
+C15       47uF        CAPC320X250X270L60M                       158.7000   -98.3500   90.0000  top
+C16       47nF        CAPC200X125X95L45M                        148.4000  -105.9500  270.0000  top
+D1        D_Schottky  DIOM795X590X261L117X305M                  130.7500   -73.0000    0.0000  top
+D2        D_Schottky  DIOM795X590X261L117X305M                  142.5000   -98.9500  180.0000  top
+FID1      Fiducial    FID1M3                                    120.0500   -92.5500    0.0000  top
+IC1       MIC29302WU  DPAK6P67_587X190L89X29T300X275M           169.4000  -101.9892  180.0000  top
+IC2       NCP5901B    SOIC8P127_490X600X175L83X42M              143.5500   -80.3000   90.0000  top
+IC3       NCP5901B    SOIC8P127_490X600X175L83X42M              143.5500   -88.8000   90.0000  top
+IC4       BD48K60G    SOT23-3P95_280X125L45X40M                 158.2500  -115.5500  180.0000  top
+IC5       LMR14030    SOIC9P127_490X600X170L83X41T287X202M      143.1100  -106.4300  270.0000  top
+L1        1uH         INDM400X400X200L95X310M                   150.3000   -98.8500  270.0000  top
+LED1      RED         LEDC197X125X85L45L                        165.6000  -115.3500  180.0000  top
+LED2      GREEN       LEDC197X125X85L45L                        172.4000  -115.3500  180.0000  top
+LED3      RED         LEDC197X125X85L45L                        177.0000   -75.3500   90.0000  top
+LED4      GREEN       LEDC197X125X85L45L                        177.0000   -86.2500  270.0000  top
+Q1        Si7288DP    ICSOFL8P127_515X615X112L61X42M            132.8000   -80.3000   90.0000  top
+Q2        Si7288DP    ICSOFL8P127_515X615X112L61X42M            132.8000   -88.8000   90.0000  top
+Q3        SQJA37EP1   SOIC8P127_490X600X175L83X42M-TRANZISTOR   130.5500   -99.0500   90.0000  top
+R1        46.4k       RESC200X127X65L40M                        177.5000   -92.5000   90.0000  top
+R2        12.1k       RESC200X127X65L40M                        150.1000   -80.9500  180.0000  top
+R3        12.1k       RESC200X127X65L40M                        150.1000   -86.9500  180.0000  top
+R4        12.1k       RESC200X127X65L40M                        180.2500   -92.5000   90.0000  top
+R5        4.7k        RESC200X127X65L40M                        165.6000  -113.1500    0.0000  top
+R6        12.1k       RESC200X127X65L40M                        150.1000   -89.4500  180.0000  top
+R7        4.7k        RESC200X127X65L40M                        172.5000  -113.0400    0.0000  top
+R8        68.1k       RESC200X127X65L40M                        148.4000  -109.8500  270.0000  top
+R9        12.1k       RESC200X127X65L40M                        141.0000  -110.5500  180.0000  top
+R10       12.1k       RESC200X127X65L40M                        145.2000  -110.5500    0.0000  top
+R11       4.7k        RESC200X127X65L40M                        176.0000   -79.5000  180.0000  top
+R12       4.7k        RESC200X127X65L40M                        176.0000   -82.0000    0.0000  top
+S1        LEFT        BTN4P450_600X900X350L83X70M               166.2500   -75.3500  180.0000  top
+S2        RIGHT       BTN4P450_600X900X350L83X70M               166.2500   -86.2500  180.0000  top
+## End

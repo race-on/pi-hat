@@ -1,4 +1,4 @@
-(module MTGP620H275V8H50 (layer F.Cu) (tedit 5D5189E1)
+(module MTGP620H275V8H50 (layer F.Cu) (tedit 5DDCC135)
   (descr "Mounting Hole, Plated; 6.20 mm Pad, 2.75 mm Hole (with 8 vias)")
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.12)))
@@ -14,9 +14,6 @@
   (fp_circle (center 0 0) (end 0 1.315) (layer F.Fab) (width 0.12))
   (fp_circle (center 0 0) (end 0 1.315) (layer B.Fab) (width 0.12))
   (fp_circle (center 0 0) (end 3.4 0) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0 0) (end 0 0.25) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.35 0) (end -0.35 0) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0 -0.35) (end 0 0.35) (layer F.CrtYd) (width 0.05))
   (pad H thru_hole circle (at 0 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask))
   (pad H thru_hole circle (at 0 -2.24) (size 0.75 0.75) (drill 0.5) (layers *.Cu))
   (pad H thru_hole circle (at -1.58 -1.58) (size 0.75 0.75) (drill 0.5) (layers *.Cu))
