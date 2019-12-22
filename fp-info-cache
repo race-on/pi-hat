@@ -1,239 +1,960 @@
-53348556168600
-Race On
-BTN4P450_600X900X350L83X70M
-Small Outline IC (SOIC), 4.50 mm pitch; 4 pin, 6.00 mm L X 6.00 mm W X 3.50 mm H body
+213195761006630
+Symbol
+CE-Logo_8.5x6mm_SilkScreen
+CE marking
+Logo CE certification
+0
+0
+0
+Symbol
+CE-Logo_11.2x8mm_SilkScreen
+CE marking
+Logo CE certification
+0
+0
+0
+Symbol
+CE-Logo_16.8x12mm_SilkScreen
+CE marking
+Logo CE certification
+0
+0
+0
+Symbol
+CE-Logo_28x20mm_SilkScreen
+CE marking
+Logo CE certification
+0
+0
+0
+Symbol
+CE-Logo_42x30mm_SilkScreen
+CE marking
+Logo CE certification
+0
+0
+0
+Symbol
+CE-Logo_56.1x40mm_SilkScreen
+CE marking
+Logo CE certification
+0
+0
+0
+Symbol
+ESD-Logo_6.6x6mm_SilkScreen
+Electrostatic discharge Logo
+Logo ESD
+0
+0
+0
+Symbol
+ESD-Logo_8.9x8mm_SilkScreen
+Electrostatic discharge Logo
+Logo ESD
+0
+0
+0
+Symbol
+ESD-Logo_13.2x12mm_SilkScreen
+Electrostatic discharge Logo
+Logo ESD
+0
+0
+0
+Symbol
+ESD-Logo_22x20mm_SilkScreen
+Electrostatic discharge Logo
+Logo ESD
+0
+0
+0
+Symbol
+ESD-Logo_33x30mm_SilkScreen
+Electrostatic discharge Logo
+Logo ESD
+0
+0
+0
+Symbol
+ESD-Logo_44.1x40mm_SilkScreen
+Electrostatic discharge Logo
+Logo ESD
+0
+0
+0
+Symbol
+FCC-Logo_7.3x6mm_SilkScreen
+FCC marking
+Logo FCC certification
+0
+0
+0
+Symbol
+FCC-Logo_9.6x8mm_SilkScreen
+FCC marking
+Logo FCC certification
+0
+0
+0
+Symbol
+FCC-Logo_14.6x12mm_SilkScreen
+FCC marking
+Logo FCC certification
+0
+0
+0
+Symbol
+FCC-Logo_24.2x20mm_SilkScreen
+FCC marking
+Logo FCC certification
+0
+0
+0
+Symbol
+FCC-Logo_36.3x30mm_SilkScreen
+FCC marking
+Logo FCC certification
+0
+0
+0
+Symbol
+FCC-Logo_48.3x40mm_SilkScreen
+FCC marking
+Logo FCC certification
+0
+0
+0
+Symbol
+KiCad-Logo2_5mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_5mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_6mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_6mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_8mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_8mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_12mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_12mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_20mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_20mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_30mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_30mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_40mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_40mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_5mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_5mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_6mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_6mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_8mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_8mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_12mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_12mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_20mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_20mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_30mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_30mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_40mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_40mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+OSHW-Logo2_7.3x6mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_7.3x6mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_9.8x8mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_9.8x8mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_14.6x12mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_14.6x12mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_24.3x20mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_24.3x20mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_36.5x30mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_36.5x30mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_48.7x40mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo2_48.7x40mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_5.7x6mm_Copper
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_5.7x6mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_7.5x8mm_Copper
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_7.5x8mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_11.4x12mm_Copper
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_11.4x12mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_19x20mm_Copper
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_19x20mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_28.5x30mm_Copper
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_28.5x30mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_38.1x40mm_Copper
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Logo_38.1x40mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_6.7x6mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_6.7x6mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_8.9x8mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_8.9x8mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_13.4x12mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_13.4x12mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_22.3x20mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_22.3x20mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_33.5x30mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_33.5x30mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_44.5x40mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+OSHW-Symbol_44.5x40mm_SilkScreen
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
+Symbol
+Polarity_Center_Negative_6mm_SilkScreen
+Polarity Logo, Center Negative
+Logo Polarity Center Negative
+0
+0
+0
+Symbol
+Polarity_Center_Negative_8mm_SilkScreen
+Polarity Logo, Center Negative
+Logo Polarity Center Negative
+0
+0
+0
+Symbol
+Polarity_Center_Negative_12mm_SilkScreen
+Polarity Logo, Center Negative
+Logo Polarity Center Negative
+0
+0
+0
+Symbol
+Polarity_Center_Negative_20mm_SilkScreen
+Polarity Logo, Center Negative
+Logo Polarity Center Negative
+0
+0
+0
+Symbol
+Polarity_Center_Negative_30mm_SilkScreen
+Polarity Logo, Center Negative
+Logo Polarity Center Negative
+0
+0
+0
+Symbol
+Polarity_Center_Negative_40mm_SilkScreen
+Polarity Logo, Center Negative
+Logo Polarity Center Negative
+0
+0
+0
+Symbol
+Polarity_Center_Positive_6mm_SilkScreen
+Polarity Logo, Center Positive
+Logo Polarity Center Positive
+0
+0
+0
+Symbol
+Polarity_Center_Positive_8mm_SilkScreen
+Polarity Logo, Center Positive
+Logo Polarity Center Positive
+0
+0
+0
+Symbol
+Polarity_Center_Positive_12mm_SilkScreen
+Polarity Logo, Center Positive
+Logo Polarity Center Positive
+0
+0
+0
+Symbol
+Polarity_Center_Positive_20mm_SilkScreen
+Polarity Logo, Center Positive
+Logo Polarity Center Positive
+0
+0
+0
+Symbol
+Polarity_Center_Positive_30mm_SilkScreen
+Polarity Logo, Center Positive
+Logo Polarity Center Positive
+0
+0
+0
+Symbol
+Polarity_Center_Positive_40mm_SilkScreen
+Polarity Logo, Center Positive
+Logo Polarity Center Positive
+0
+0
+0
+Symbol
+RoHS-Logo_6mm_SilkScreen
+Restriction of Hazardous Substances Directive Logo
+Logo RoHS
+0
+0
+0
+Symbol
+RoHS-Logo_8mm_SilkScreen
+Restriction of Hazardous Substances Directive Logo
+Logo RoHS
+0
+0
+0
+Symbol
+RoHS-Logo_12mm_SilkScreen
+Restriction of Hazardous Substances Directive Logo
+Logo RoHS
+0
+0
+0
+Symbol
+RoHS-Logo_20mm_SilkScreen
+Restriction of Hazardous Substances Directive Logo
+Logo RoHS
+0
+0
+0
+Symbol
+RoHS-Logo_30mm_SilkScreen
+Restriction of Hazardous Substances Directive Logo
+Logo RoHS
+0
+0
+0
+Symbol
+RoHS-Logo_40mm_SilkScreen
+Restriction of Hazardous Substances Directive Logo
+Logo RoHS
+0
+0
+0
+Symbol
+Symbol_Attention_CopperTop_Big
+Symbol, Attention, Copper Top, Big,
+Symbol, Attention, Copper Top, Big,
+0
+0
+0
+Symbol
+Symbol_Attention_CopperTop_Small
+Symbol, Attention, Copper Top, Small,
+Symbol, Attention, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_Barrel_Polarity
+Barrel connector polarity indicator
+barrel polarity
+0
+0
+0
+Symbol
+Symbol_CC-Attribution_CopperTop_Big
+Symbol, CC-Attribution, Copper Top, Big,
+Symbol, CC-Attribution, Copper Top, Big,
+0
+0
+0
+Symbol
+Symbol_CC-Attribution_CopperTop_Small
+Symbol, CC-Share Alike, Copper Top, Small,
+Symbol, CC-Share Alike, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_CC-Noncommercial_CopperTop_Big
+Symbol, CC-Noncommercial, Copper Top, Big,
+Symbol, CC-Noncommercial, Copper Top, Big,
+0
+0
+0
+Symbol
+Symbol_CC-Noncommercial_CopperTop_Small
+Symbol, CC-Noncommercial Alike, Copper Top, Small,
+Symbol, CC-Noncommercial Alike, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_CC-PublicDomain_CopperTop_Big
+Symbol, CC-PublicDomain, Copper Top, Big,
+Symbol, CC-PublicDomain, Copper Top, Big,
+0
+0
+0
+Symbol
+Symbol_CC-PublicDomain_CopperTop_Small
+Symbol, CC-Public Domain, Copper Top, Small,
+Symbol, CC-Public Domain, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_CC-PublicDomain_SilkScreenTop_Big
+Symbol, CC-PublicDomain, SilkScreen Top, Big,
+Symbol, CC-PublicDomain, SilkScreen Top, Big,
+0
+0
+0
+Symbol
+Symbol_CC-ShareAlike_CopperTop_Big
+Symbol, CC-Share Alike, Copper Top, Big,
+Symbol, CC-Share Alike, Copper Top, Big,
+0
+0
+0
+Symbol
+Symbol_CC-ShareAlike_CopperTop_Small
+Symbol, CC-Share Alike, Copper Top, Small,
+Symbol, CC-Share Alike, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_CreativeCommonsPublicDomain_CopperTop_Small
+Symbol, Creative Commons Public Domain, CopperTop, Small,
+Symbol, Creative Commons Public Domain, CopperTop, Small,
+0
+0
+0
+Symbol
+Symbol_CreativeCommonsPublicDomain_SilkScreenTop_Small
+Symbol, Creative Commons Public Domain, SilkScreenTop, Small,
+Symbol, Creative Commons Public Domain, SilkScreen Top, Small,
+0
+0
+0
+Symbol
+Symbol_CreativeCommons_CopperTop_Type1_Big
+Symbol, Creative Commons, CopperTop, Type 1, Big,
+Symbol, Creative Commons, CopperTop, Type 1, Big,
+0
+0
+0
+Symbol
+Symbol_CreativeCommons_CopperTop_Type2_Big
+Symbol, Creative Commons, CopperTop, Type 2, Big,
+Symbol, Creative Commons, CopperTop, Type 2, Big,
+0
+0
+0
+Symbol
+Symbol_CreativeCommons_CopperTop_Type2_Small
+Symbol, Creative Commons, CopperTop, Type 2, Small,
+Symbol, Creative Commons, CopperTop, Type 2, Small,
+0
+0
+0
+Symbol
+Symbol_CreativeCommons_SilkScreenTop_Type2_Big
+Symbol, Creative Commons, SilkScreen Top, Type 2, Big,
+Symbol, Creative Commons, SilkScreen Top, Type 2, Big,
+0
+0
+0
+Symbol
+Symbol_Danger_CopperTop_Big
+Symbol, Danger, CopperTop, Big,
+Symbol, Danger, CopperTop, Big,
+0
+0
+0
+Symbol
+Symbol_Danger_CopperTop_Small
+Symbol, Danger, Copper Top, Small,
+Symbol, Danger, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_ESD-Logo-Text_CopperTop
+
 
 0
-4
-2
-Race On
-CAPC200X125X95L45M
-Capacitor, Chip; 2.00 mm L X 1.25 mm W X 0.95 mm H body
-
 0
-2
-2
-Race On
-CAPC320X160X180L50M
-Capacitor, Chip; 3.20 mm L X 1.60 mm W X 1.80 mm H body
-
 0
-2
-2
-Race On
-CAPC320X250X270L60M
-Capacitor, Chip; 3.20 mm L X 2.50 mm W X 2.70 mm H body
-
-0
-2
-2
-Race On
-CAPPM730X435X310L135X240L
-Capacitor, Polarized, Molded Body; 7.00 mm L X 4.35 mm W X 3.10 mm H body
-
-0
-2
-2
-Race On
-CON2P
-
-
-0
-2
-2
-Race On
-DIOM795X590X261L117X305M
-Diode, Molded Body; 6.875 mm L X 5.90 mm W X 2.61 mm H body
-
-0
-2
-2
-Race On
-DPAK3P460_990X239L160X76T650X546L
-DPAK, 4.60 mm pitch; 2 pin, 6.095 mm L X 6.54 mm W X 2.39 mm H body
-
-0
-11
-3
-Race On
-DPAK6P67_587X190L89X29T300X275M
-DPAK, 0.067 in pitch; 5 pin, 0.355 in L X 0.400 in W X 0.190 in H body
-
-0
-21
-6
-Race On
-FID1M3
-Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)
-fiducial
-0
-1
-0
-Race On
-HDRV3W64P254_3X1_762X254H854
-Header, Vertical, 2.54 mm pitch; 0.64 mm lead width, 3 pins, 1 row, 3 pins per row, 7.62 mm L X 2.54 mm W X 8.54 mm H body
-
-0
-3
-3
-Race On
-HDRV4W64P254_4X1_1016X254H854
-Header, Vertical, 2.54 mm pitch; 0.64 mm lead width, 4 pins, 1 row, 4 pins per row, 10.16 mm L X 2.54 mm W X 8.54 mm H body
-
-0
-4
-4
-Race On
-HDRV6W65P254_3X2_762X508H900
-Header, Vertical, 2.54 mm pitch; 0.65 mm lead width, 6 pins, 2 rows, 3 pins per row, 7.62 mm L X 5.08 mm W X 9.00 mm H body
-
-0
-6
-6
-Race On
-ICSOFL8P127_515X615X112L61X42M
-Integrated Circuit (IC), Small Outline Flat Lead (SOFL), 1.27 mm pitch; 8 pin, 5.15 mm L X 5.89 mm W X 1.12 mm H body
-
-0
-10
-6
-Race On
-INDM400X400X200L95X310M
-Inductor, Molded Body; 4.00 mm L X 4.00 mm W X 2.00 mm H body
-
-0
-2
-2
-Race On
-INDM600X600X450L155X490M
-Inductor, Molded Body; 6.00 mm L X 6.00 mm W X 4.50 mm H body
-
-0
-2
-2
-Race On
-LEDC197X125X85L45L
-LED, Chip; 1.975 mm L X 1.25 mm W X 0.85 mm H body
-
-0
-2
-2
-Race On
-LSP500W60D980H500
-Inductor, Polarized, Radial (Inductor); 5.00 mm C X 9.80 mm Dia X 5.00 mm H body
-
-0
-2
-2
-Race On
-MTGP620H275V8H50
-Mounting Hole, Plated; 6.20 mm Pad, 2.75 mm Hole (with 8 vias)
-
-0
-9
-1
-Race On
-PGA28P254C7R4L1840X1127H200
-Pin Grid Array (PGA), 2.54 mm pitch, rect.; 28 pin, 18.40 mm L X 11.27 mm W X 2.00 mm H body
-
-0
-8
-8
-Race On
-RACEON
-
-
+Symbol
+Symbol_ESD-Logo_CopperTop
+ESD-Logo, similar JEDEC-14, without text, ohne Text, Copper Top,
+ESD-Logo, similar JEDEC-14, without text, ohne Text, Copper Top,
 0
 0
 0
-Race On
-RACEON-LOGO
-
-
+Symbol
+Symbol_GNU-GPL_CopperTop_Big
+Symbol, GNU-GPL, Copper Top, Big,
+Symbol, GNU-GPL, Copper Top, Big,
 0
 0
 0
-Race On
-RESC200X127X65L40M
-Resistor, Chip; 2.00 mm L X 1.275 mm W X 0.65 mm H body
-
+Symbol
+Symbol_GNU-GPL_CopperTop_Small
+Symbol, GNU-GPL, Copper Top, Small,
+Symbol, GNU-GPL, Copper Top, Small,
 0
-2
-2
-Race On
-RHDRV40W64P254_20X2_5120X500H850
-Header, Vertical Receptacle, 2.54 mm pitch; 0.64 mm lead width, 40 pins, 2 rows, 20 pins per row, 51.20 mm L X 5.00 mm W X 8.50 mm H body
-
 0
-40
-40
-Race On
-SHDRV6W65P254_3X2_762X508H900
-Header, Vertical Shrouded, 2.54 mm pitch; 0.65 mm lead width, 6 pins, 2 rows, 3 pins per row, 7.62 mm L X 5.08 mm W X 9.00 mm H body
-
 0
-6
-6
-Race On
-SJ3B12P10X15
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
+Symbol
+Symbol_GNU-Logo_CopperTop
+GNU-Logo, GNU-Head, GNU-Kopf, Copper Top,
+GNU-Logo, GNU-Head, GNU-Kopf, Copper Top,
 0
-3
-3
-Race On
-SOD350X160X120L45X62M
-Diode, Small Outline Diode (SOD); 2.60 mm L X 1.60 mm W X 1.20 mm H body
-
 0
-2
-2
-Race On
-SOIC8P127_490X600X175L83X42M
-Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.75 mm H body
-
 0
-8
-8
-Race On
-SOIC8P127_490X600X175L83X42M-TRANZISTOR
-Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.75 mm H body
-
+Symbol
+Symbol_GNU-Logo_SilkscreenTop
+GNU-Logo, GNU-Head, GNU-Kopf, Silkscreen,
+GNU-Logo, GNU-Head, GNU-Kopf, Silkscreen,
 0
-8
-3
-Race On
-SOIC9P127_490X600X170L83X41T287X202M
-Small Outline IC (SOIC with Tab), 1.27 mm pitch; 8 pin, 4.90 mm L X 3.90 mm W X 1.70 mm H body
-
 0
-13
-9
-Race On
-SOT23-3P95_280X125L45X40M
-Small Outline Transistor (SOT23), 0.95 mm pitch; 3 pin, 2.92 mm L X 1.60 mm W X 1.25 mm H body
-
 0
-3
-3
-Race On
-SOT23-5P95_280X145L45X40M
-Small Outline Transistor (SOT23), 0.95 mm pitch; 5 pin, 2.90 mm L X 1.60 mm W X 1.45 mm H body
-
+Symbol
+Symbol_HighVoltage_Type1_CopperTop_Big
+Symbol, HighVoltage, Type1, Copper Top, Big,
+Symbol, HighVoltage, Type1, Copper Top, Big,
 0
-5
-5
-Race On
-SOT23-6P95_280X145L45X37M
-Small Outline Transistor (SOT23), 0.95 mm pitch; 6 pin, 2.90 mm L X 1.60 mm W X 1.45 mm H body
-
 0
-6
-6
-Race On
-TESTPOINT
-
-
 0
-1
-1
+Symbol
+Symbol_Highvoltage_Type1_CopperTop_Small
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+Symbol, Highvoltage, Type 1, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_HighVoltage_Type2_CopperTop_Big
+Symbol, HighVoltage, Type2, Copper Top, Big,
+Symbol, HighVoltage, Type2, Copper Top, Big,
+0
+0
+0
+Symbol
+Symbol_Highvoltage_Type2_CopperTop_Small
+Symbol, Highvoltage, Type 2, Copper Top, Small,
+Symbol, Highvoltage, Type 2, Copper Top, Small,
+0
+0
+0
+Symbol
+Symbol_HighVoltage_Type2_CopperTop_VerySmall
+Symbol, High Voltage, Type 2, Copper Top, Very Small,
+Symbol, High Voltage, Type 2, Copper Top, Very Small,
+0
+0
+0
+Symbol
+WEEE-Logo_4.2x6mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0
+Symbol
+WEEE-Logo_5.6x8mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0
+Symbol
+WEEE-Logo_8.4x12mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0
+Symbol
+WEEE-Logo_14x20mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0
+Symbol
+WEEE-Logo_21x30mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0
+Symbol
+WEEE-Logo_28.1x40mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0

@@ -6,8 +6,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Race On – Pi HAT"
-Date "2019-08-15"
-Rev "1.2"
+Date "2019-12-22"
+Rev "1.3"
 Comp "University of Southern California"
 Comment1 "Ming Hsieh Department of Electrical and Computer Engineering"
 Comment2 "sponsored by"
@@ -912,7 +912,6 @@ F 3 "" H 800 7400 50  0001 C CNN
 $EndComp
 NoConn ~ 1700 7750
 NoConn ~ 1700 7650
-NoConn ~ 1700 7550
 Wire Wire Line
 	800  7450 900  7450
 Wire Wire Line
@@ -2606,4 +2605,19 @@ NoConn ~ 5700 5600
 NoConn ~ 5700 6200
 NoConn ~ 5200 6100
 NoConn ~ 5700 6300
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5E01E4B3
+P 800 3800
+F 0 "LOGO2" H 800 4075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 800 3575 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 800 3800 50  0001 C CNN
+F 3 "~" H 800 3800 50  0001 C CNN
+	1    800  3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 7550 2    50   Input ~ 0
+BCM21
+Wire Wire Line
+	1750 7550 1700 7550
 $EndSCHEMATC
