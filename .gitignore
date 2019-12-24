@@ -6,6 +6,5 @@
 *.xml
 
 # backup files
-*.bak
-*.bck
-*-bak
+bak$
+bck$
