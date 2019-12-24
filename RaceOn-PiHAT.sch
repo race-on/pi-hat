@@ -2664,4 +2664,15 @@ F 3 "" H 3200 4650 50  0001 C CNN
 	1    3200 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5E0E375F
+P 4200 6700
+F 0 "FID1" H 4285 6746 50  0000 L CNN
+F 1 "Fiducial" H 4285 6655 50  0000 L CNN
+F 2 "Race On:FID1M3" H 4200 6700 50  0001 C CNN
+F 3 "~" H 4200 6700 50  0001 C CNN
+	1    4200 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
