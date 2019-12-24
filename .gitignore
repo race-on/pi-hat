@@ -7,3 +7,5 @@
 
 # backup files
 *.bak
+*.bck
+*-bak

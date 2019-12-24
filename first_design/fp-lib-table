@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name "Library Expert")(type KiCad)(uri ${KIPRJMOD}/library_express_pro.pretty)(options "")(descr ""))
-  (lib (name library_express_pro)(type KiCad)(uri ${KIPRJMOD}/library_express_pro.pretty)(options "")(descr ""))
-  (lib (name "Pi HAT Footprints")(type KiCad)(uri "/Users/valeriu/Projects/raceon/RaspberryPi-shield-PCB/first_design/Pi HAT Footprints")(options "")(descr ""))
-)

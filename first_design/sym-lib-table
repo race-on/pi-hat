@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name first_design-rescue)(type Legacy)(uri ${KIPRJMOD}/first_design-rescue.lib)(options "")(descr ""))
-  (lib (name RaceOn-PiHAT)(type Legacy)(uri ${KIPRJMOD}/RaceOn-PiHAT.lib)(options "")(descr ""))
-)
